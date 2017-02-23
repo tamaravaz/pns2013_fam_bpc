@@ -1,15 +1,6 @@
-# pns2013_fam_bpc
-Identifica elegíveis e reconstrói família BPC dentro da PNS 2013
+# Resumo das regras do BPC, fevereiro 2017
 
----
-title: "Resumo das regras do BPC"
-author: 
-date: "16 de fevereiro de 2017"
-output:
-  html_document: default
-  html: default
----
-# Benefícios
+## Benefícios
 Informações da [Lei Nº 8.742][1] e [INSS][2]
 
 [2]: http://www.previdencia.gov.br/servicos-ao-cidadao/todos-os-servicos/beneficio-assistencial-bpc-loas/
