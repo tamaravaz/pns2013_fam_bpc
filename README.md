@@ -1,2 +1,70 @@
 # pns2013_fam_bpc
 Identifica elegíveis e reconstrói família BPC dentro da PNS 2013
+
+---
+title: "Resumo das regras do BPC"
+author: 
+date: "16 de fevereiro de 2017"
+output:
+  html_document: default
+  html: default
+---
+# Benefícios
+Informações da [Lei Nº 8.742][1] e [INSS][2]
+
+[2]: http://www.previdencia.gov.br/servicos-ao-cidadao/todos-os-servicos/beneficio-assistencial-bpc-loas/
+[1]: http://sislex.previdencia.gov.br/paginas/42/1993/8742.htm 
+[3]: https://www.legisweb.com.br/legislacao/?id=275117
+
+Benefício de um salário minimo mensal à pessoa com deficiência e ao idoso que comprovem nao possuir meios para prover a própria manutenção e nem tê-la provida por sua família. De modo que a incapacidade familiar de prover o sustento deve ser medida de modo que a renda *per capita* familiar seja menor do que 1/4 do salário mínimo vigente. 
+
+## Família e rendas para fins de cálculo
+
+### Família
+1. Beneficiário
+2. Cônjuge ou companheiro(a)
+3. Pais ou madratra/padrasto
+4. Irmãos solteiros
+5. Filhos solteiros
+6. Enteados solteiros
+7. Menores tutelados
+
+>IV – Família para fins de cálculo da renda mensal familiar per capital: conjunto de pessoas que **vivem sob o mesmo teto** composto pelo requerente, o cônjuge ou companheiro(a), os pais e, na ausência de um deles, a madrasta ou o padrasto, os irmãos solteiros, os filhos e enteados solteiros e os menores tutelados. ([Portaria conjunta SPS/INSS/SNAS Nº 2 19.09.2014][3])
+
+### Rendas componentes
+#### Rendas computadas
+Salários; proventos; pensões; previcências; seguro-desemprego; comissões; prólabore; outros rendimentos de trabalho não assalariado; rendimentos do mercado informal ou autônomo; provenientes de patrimônio, renda mensal vitalícia e de BPC (exceto para idoso com outro idoso recebendo BPC)  
+
+#### Rendas não computadas
+Beneficios e auxilios de natureza eventual e temporaria; programas de trasnferencia de renda; bolsa de estágio; pensão indenizatória; benefício de assistência médica; rendas sazonais; remuneração como aprendiz. 
+## Idoso
+
+* idade>=65 anos
+* Não ter benefícios da Previdência Social
+* Benefício Assistencial ao Idoso já concedido a um membro da família não entrará no cálculo da renda familiar em caso de solicitação de um novo benefício de Amparo Assistencial para outro idoso da mesma família.
+
+## Pessoa com Deficiência
+
+* Comprovação da deficiência:a deficiência é analisada pelo Serviço Social e pela Perícia Médica do INSS.
+* Deficiente contratado como aprendiz: a pessoa com deficiência contratada na condição de aprendiz poderá acumular o BPC/LOAS e a remuneração do contrato de aprendiz com deficiência, e terá seu benefício suspenso somente após o período de dois anos de recebimento concomitante da remuneração e do benefício.
+* Trabalho da pessoa com deficiência: a pessoa com deficiência que retornar a trabalhar terá seu benefício suspenso.
+
+# Quantidade de Beneficiários por ano
+
+|  **Ano** |   **Idoso**   | **Pessoa com deficiência** |   **Total**   |
+|:----:|:---------:|:----------------------:|:---------:|
+| 2002 | 584.597   | 976.257                | 1.562.856 |
+| 2003 | 664.875   | 1.036.365              | 1.703.243 |
+| 2004 | 933.164   | 1.127.849              | 2.063.017 |
+| 2005 | 1.065.604 | 1.211.761              | 2.279.370 |
+| 2006 | 1.183.840 | 1.293.645              | 2.479.491 |
+| 2007 | 1.295.716 | 1.385.107              | 2.682.830 |
+| 2008 | 1.423.790 | 1.510.682              | 2.936.480 |
+| 2009 | 1.541.220 | 1.625.625              | 3.168.854 |
+| 2010 | 1.623.196 | 1.778.345              | 3.403.551 |
+| 2011 | 1.687.826 | 1.907.511              | 3.597.348 |
+| 2012 | 1.750.121 | 2.021.721              | 3.773.854 |
+|**2013**|**1.822.346**| **2.141.846** | **3.966.205 **|
+| 2014 | 1.876.610 | 2.253.822              | 4.132.446 |
+Fonte:[Ministério do Desenvolvimento Social e Agrário - MDSA](http://dados.gov.br/dataset/bpc-beneficio-da-prestacao-continuada)
+
