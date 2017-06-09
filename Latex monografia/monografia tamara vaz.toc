@@ -1,0 +1,43 @@
+\changetocdepth {4}
+\select@language {brazil}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{21}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Programa de Presta\IeC {\c c}\IeC {\~a}o Continuada e sua judicializa\IeC {\c c}\IeC {\~a}o}}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}Regras de elegibilidade }{23}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Car\IeC {\^e}ncia de meios para a manuten\IeC {\c c}\IeC {\~a}o}{23}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Tend\IeC {\^e}ncia e entendimento atual das judicializa\IeC {\c c}\IeC {\~o}es}{24}{section.2.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Pobreza e sua dimens\IeC {\~o}es}}{25}{chapter.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {M\IeC {\'e}todos e procedimentos}}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dados}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Identifica\IeC {\c c}\IeC {\~a}o dos pr\IeC {\'e} eleg\IeC {\'\i }veis e reconstru\IeC {\c c}\IeC {\~a}o da fam\IeC {\'\i }lia BPC}{27}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Ambiguidades e tratamento}{29}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}C\IeC {\'a}lculo da renda \textit {per capita} familiar}{30}{section.4.3}
+\contentsline {section}{\numberline {4.4}Comparativo de pobreza entre grupos}{30}{section.4.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}An\IeC {\'a}lise Descritiva}{31}{section.5.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{35}{chapter.6}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{37}{section*.13}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Anexos}}{39}{section*.14}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Tabela verdade de recria\IeC {\c c}\IeC {\~a}o do grupamento familiar do BPC}}{41}{appendix.anexochapback.1}
+\vspace {\cftbeforechapterskip }

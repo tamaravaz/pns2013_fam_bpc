@@ -1,0 +1,361 @@
+label_C004_pre_elegivel;c004_pre_elegivel;pre_elegivel;solteiro;label_C004;c004;vinc_fam_BPC
+Pessoa responsável pelo domicílio ;1;1;1;Pessoa responsável pelo domicílio ;1;O PROPRIO
+Pessoa responsável pelo domicílio ;1;0;1;Conjuge;2;ERRO
+Pessoa responsável pelo domicílio ;1;0;1;Filho(a) do responsável e do cônjuge;4;FILHO
+Pessoa responsável pelo domicílio ;1;0;1;Filho(a) somente do responsável;5;FILHO
+Pessoa responsável pelo domicílio ;1;0;1;Enteado(a);6;ENTEADO
+Pessoa responsável pelo domicílio ;1;0;1;Genro ou nora;7;ERRO
+Pessoa responsável pelo domicílio ;1;0;1;Pai, mãe, padrasto ou madrasta;8;PAI/MÃE
+Pessoa responsável pelo domicílio ;1;0;1;Sogro(a);9;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;1;Neto(a);10;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;1;Bisneto(a);11;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;1;Irmão ou irmã;12;IRMAO/IRMA
+Pessoa responsável pelo domicílio ;1;0;1;Avô ou avó;13;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;1;Outros;20;NÃO ENTRA
+Conjuge;2;0;1;Pessoa responsável pelo domicílio ;1;ERRO
+Conjuge;2;1;1;Conjuge;2;ERRO
+Conjuge;2;0;1;Filho(a) do responsável e do cônjuge;4;FILHO
+Conjuge;2;0;1;Filho(a) somente do responsável;5;ENTEADO
+Conjuge;2;0;1;Enteado(a);6;FILHO
+Conjuge;2;0;1;Genro ou nora;7;ERRO
+Conjuge;2;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Conjuge;2;0;1;Sogro(a);9;PAI/MÃE
+Conjuge;2;0;1;Neto(a);10;NÃO ENTRA
+Conjuge;2;0;1;Bisneto(a);11;NÃO ENTRA
+Conjuge;2;0;1;Irmão ou irmã;12;NÃO ENTRA
+Conjuge;2;0;1;Avô ou avó;13;NÃO ENTRA
+Conjuge;2;0;1;Outros;20;AMBIGUO
+Filho(a) do responsável e do cônjuge;4;1;1;Filho(a) do responsável e do cônjuge;4;O PROPRIO
+Filho(a) do responsável e do cônjuge;4;0;1;Pessoa responsável pelo domicílio ;1;PAI/MÃE
+Filho(a) do responsável e do cônjuge;4;0;1;Conjuge;2;PAI/MÃE
+Filho(a) do responsável e do cônjuge;4;0;1;Filho(a) do responsável e do cônjuge;4;IRMAO/IRMA
+Filho(a) do responsável e do cônjuge;4;0;1;Filho(a) somente do responsável;5;IRMAO/IRMA
+Filho(a) do responsável e do cônjuge;4;0;1;Enteado(a);6;IRMAO/IRMA
+Filho(a) do responsável e do cônjuge;4;0;1;Genro ou nora;7;ERRO
+Filho(a) do responsável e do cônjuge;4;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;1;Sogro(a);9;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;1;Neto(a);10;AMBIGUO
+Filho(a) do responsável e do cônjuge;4;0;1;Bisneto(a);11;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;1;Irmão ou irmã;12;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;1;Avô ou avó;13;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;1;Outros;20;AMBIGUO
+Filho(a) somente do responsável;5;1;1;Filho(a) somente do responsável;5;O PROPRIO
+Filho(a) somente do responsável;5;0;1;Pessoa responsável pelo domicílio ;1;PAI/MÃE
+Filho(a) somente do responsável;5;0;1;Conjuge;2;PAI/MÃE
+Filho(a) somente do responsável;5;0;1;Filho(a) do responsável e do cônjuge;4;IRMAO/IRMA
+Filho(a) somente do responsável;5;0;1;Filho(a) somente do responsável;5;IRMAO/IRMA
+Filho(a) somente do responsável;5;0;1;Enteado(a);6;IRMAO/IRMA
+Filho(a) somente do responsável;5;0;1;Genro ou nora;7;ERRO
+Filho(a) somente do responsável;5;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Filho(a) somente do responsável;5;0;1;Sogro(a);9;NÃO ENTRA
+Filho(a) somente do responsável;5;0;1;Neto(a);10;AMBIGUO
+Filho(a) somente do responsável;5;0;1;Bisneto(a);11;NÃO ENTRA
+Filho(a) somente do responsável;5;0;1;Irmão ou irmã;12;NÃO ENTRA
+Filho(a) somente do responsável;5;0;1;Avô ou avó;13;NÃO ENTRA
+Filho(a) somente do responsável;5;0;1;Outros;20;AMBIGUO
+Enteado(a);6;1;1;Enteado(a);6;O PROPRIO
+Enteado(a);6;0;1;Pessoa responsável pelo domicílio ;1;PAI/MÃE
+Enteado(a);6;0;1;Conjuge;2;ERRO
+Enteado(a);6;0;1;Filho(a) do responsável e do cônjuge;4;IRMAO/IRMA
+Enteado(a);6;0;1;Filho(a) somente do responsável;5;IRMAO/IRMA
+Enteado(a);6;0;1;Enteado(a);6;IRMAO/IRMA
+Enteado(a);6;0;1;Genro ou nora;7;ERRO
+Enteado(a);6;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Enteado(a);6;0;1;Sogro(a);9;NÃO ENTRA
+Enteado(a);6;0;1;Neto(a);10;AMBIGUO
+Enteado(a);6;0;1;Bisneto(a);11;NÃO ENTRA
+Enteado(a);6;0;1;Irmão ou irmã;12;NÃO ENTRA
+Enteado(a);6;0;1;Avô ou avó;13;NÃO ENTRA
+Enteado(a);6;0;1;Outros;20;AMBIGUO
+Genro ou nora;7;1;1;Genro ou nora;7;ERRO
+Genro ou nora;7;0;1;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Genro ou nora;7;0;1;Conjuge;2;ERRO
+Genro ou nora;7;0;1;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Genro ou nora;7;0;1;Filho(a) somente do responsável;5;NÃO ENTRA
+Genro ou nora;7;0;1;Enteado(a);6;NÃO ENTRA
+Genro ou nora;7;0;1;Genro ou nora;7;ERRO
+Genro ou nora;7;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Genro ou nora;7;0;1;Sogro(a);9;NÃO ENTRA
+Genro ou nora;7;0;1;Neto(a);10;AMBIGUO
+Genro ou nora;7;0;1;Bisneto(a);11;NÃO ENTRA
+Genro ou nora;7;0;1;Irmão ou irmã;12;NÃO ENTRA
+Genro ou nora;7;0;1;Avô ou avó;13;NÃO ENTRA
+Genro ou nora;7;0;1;Outros;20;AMBIGUO
+Pai, mãe, padrasto ou madrasta;8;1;1;Pai, mãe, padrasto ou madrasta;8;O PROPRIO
+Pai, mãe, padrasto ou madrasta;8;0;1;Pessoa responsável pelo domicílio ;1;FILHO
+Pai, mãe, padrasto ou madrasta;8;0;1;Conjuge;2;ERRO
+Pai, mãe, padrasto ou madrasta;8;0;1;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Filho(a) somente do responsável;5;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Enteado(a);6;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Genro ou nora;7;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Sogro(a);9;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Neto(a);10;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Bisneto(a);11;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;1;Irmão ou irmã;12;FILHO
+Pai, mãe, padrasto ou madrasta;8;0;1;Avô ou avó;13;PAI/MÃE
+Pai, mãe, padrasto ou madrasta;8;0;1;Outros;20;AMBIGUO
+Sogro(a);9;1;1;Sogro(a);9;O PROPRIO
+Sogro(a);9;0;1;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Sogro(a);9;0;1;Conjuge;2;ERRO
+Sogro(a);9;0;1;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Sogro(a);9;0;1;Filho(a) somente do responsável;5;NÃO ENTRA
+Sogro(a);9;0;1;Enteado(a);6;NÃO ENTRA
+Sogro(a);9;0;1;Genro ou nora;7;NÃO ENTRA
+Sogro(a);9;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Sogro(a);9;0;1;Sogro(a);9;NÃO ENTRA
+Sogro(a);9;0;1;Neto(a);10;NÃO ENTRA
+Sogro(a);9;0;1;Bisneto(a);11;NÃO ENTRA
+Sogro(a);9;0;1;Irmão ou irmã;12;NÃO ENTRA
+Sogro(a);9;0;1;Avô ou avó;13;NÃO ENTRA
+Sogro(a);9;0;1;Outros;20;AMBIGUO
+Neto(a);10;1;1;Neto(a);10;O PROPRIO
+Neto(a);10;0;1;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Neto(a);10;0;1;Conjuge;2;ERRO
+Neto(a);10;0;1;Filho(a) do responsável e do cônjuge;4;AMBIGUO
+Neto(a);10;0;1;Filho(a) somente do responsável;5;AMBIGUO
+Neto(a);10;0;1;Enteado(a);6;AMBIGUO
+Neto(a);10;0;1;Genro ou nora;7;ERRO
+Neto(a);10;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Neto(a);10;0;1;Sogro(a);9;NÃO ENTRA
+Neto(a);10;0;1;Neto(a);10;AMBIGUO
+Neto(a);10;0;1;Bisneto(a);11;NÃO ENTRA
+Neto(a);10;0;1;Irmão ou irmã;12;NÃO ENTRA
+Neto(a);10;0;1;Avô ou avó;13;NÃO ENTRA
+Neto(a);10;0;1;Outros;20;AMBIGUO
+Bisneto(a);11;1;1;Bisneto(a);11;O PROPRIO
+Bisneto(a);11;0;1;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Bisneto(a);11;0;1;Conjuge;2;ERRO
+Bisneto(a);11;0;1;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Bisneto(a);11;0;1;Filho(a) somente do responsável;5;NÃO ENTRA
+Bisneto(a);11;0;1;Enteado(a);6;NÃO ENTRA
+Bisneto(a);11;0;1;Genro ou nora;7;ERRO
+Bisneto(a);11;0;1;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Bisneto(a);11;0;1;Sogro(a);9;NÃO ENTRA
+Bisneto(a);11;0;1;Neto(a);10;AMBIGUO
+Bisneto(a);11;0;1;Bisneto(a);11;AMBIGUO
+Bisneto(a);11;0;1;Irmão ou irmã;12;NÃO ENTRA
+Bisneto(a);11;0;1;Avô ou avó;13;NÃO ENTRA
+Bisneto(a);11;0;1;Outros;20;AMBIGUO
+Irmão ou irmã;12;1;1;Irmão ou irmã;12;O PROPRIO
+Irmão ou irmã;12;0;1;Pessoa responsável pelo domicílio ;1;IRMAO/IRMA
+Irmão ou irmã;12;0;1;Conjuge;2;ERRO
+Irmão ou irmã;12;0;1;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Irmão ou irmã;12;0;1;Filho(a) somente do responsável;5;NÃO ENTRA
+Irmão ou irmã;12;0;1;Enteado(a);6;NÃO ENTRA
+Irmão ou irmã;12;0;1;Genro ou nora;7;ERRO
+Irmão ou irmã;12;0;1;Pai, mãe, padrasto ou madrasta;8;PAI/MÃE
+Irmão ou irmã;12;0;1;Sogro(a);9;NÃO ENTRA
+Irmão ou irmã;12;0;1;Neto(a);10;NÃO ENTRA
+Irmão ou irmã;12;0;1;Bisneto(a);11;NÃO ENTRA
+Irmão ou irmã;12;0;1;Irmão ou irmã;12;IRMAO/IRMA
+Irmão ou irmã;12;0;1;Avô ou avó;13;NÃO ENTRA
+Irmão ou irmã;12;0;1;Outros;20;AMBIGUO
+Avô ou avó;13;1;1;Avô ou avó;13;O PROPRIO
+Avô ou avó;13;0;1;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Avô ou avó;13;0;1;Conjuge;2;ERRO
+Avô ou avó;13;0;1;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Avô ou avó;13;0;1;Filho(a) somente do responsável;5;NÃO ENTRA
+Avô ou avó;13;0;1;Enteado(a);6;NÃO ENTRA
+Avô ou avó;13;0;1;Genro ou nora;7;ERRO
+Avô ou avó;13;0;1;Pai, mãe, padrasto ou madrasta;8;AMBIGUO
+Avô ou avó;13;0;1;Sogro(a);9;NÃO ENTRA
+Avô ou avó;13;0;1;Neto(a);10;NÃO ENTRA
+Avô ou avó;13;0;1;Bisneto(a);11;NÃO ENTRA
+Avô ou avó;13;0;1;Irmão ou irmã;12;NÃO ENTRA
+Avô ou avó;13;0;1;Avô ou avó;13;NÃO ENTRA
+Avô ou avó;13;0;1;Outros;20;AMBIGUO
+Outros;20;1;1;Outros;20;O PROPRIO
+Outros;20;0;1;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Outros;20;0;1;Conjuge;2;ERRO
+Outros;20;0;1;Filho(a) do responsável e do cônjuge;4;AMBIGUO
+Outros;20;0;1;Filho(a) somente do responsável;5;AMBIGUO
+Outros;20;0;1;Enteado(a);6;AMBIGUO
+Outros;20;0;1;Genro ou nora;7;ERRO
+Outros;20;0;1;Pai, mãe, padrasto ou madrasta;8;AMBIGUO
+Outros;20;0;1;Sogro(a);9;AMBIGUO
+Outros;20;0;1;Neto(a);10;AMBIGUO
+Outros;20;0;1;Bisneto(a);11;AMBIGUO
+Outros;20;0;1;Irmão ou irmã;12;AMBIGUO
+Outros;20;0;1;Avô ou avó;13;AMBIGUO
+Outros;20;0;1;Outros;20;AMBIGUO
+Pessoa responsável pelo domicílio ;1;1;0;Pessoa responsável pelo domicílio ;1;O PROPRIO
+Pessoa responsável pelo domicílio ;1;0;0;Conjuge;2;CONJUGE
+Pessoa responsável pelo domicílio ;1;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Enteado(a);6;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Genro ou nora;7;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Pai, mãe, padrasto ou madrasta;8;PAI/MÃE
+Pessoa responsável pelo domicílio ;1;0;0;Sogro(a);9;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Neto(a);10;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Bisneto(a);11;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Irmão ou irmã;12;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Avô ou avó;13;NÃO ENTRA
+Pessoa responsável pelo domicílio ;1;0;0;Outros;20;NÃO ENTRA
+Conjuge;2;0;0;Pessoa responsável pelo domicílio ;1;CONJUGE
+Conjuge;2;1;0;Conjuge;2;O PROPRIO
+Conjuge;2;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Conjuge;2;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Conjuge;2;0;0;Enteado(a);6;NÃO ENTRA
+Conjuge;2;0;0;Genro ou nora;7;NÃO ENTRA
+Conjuge;2;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Conjuge;2;0;0;Sogro(a);9;PAI/MÃE
+Conjuge;2;0;0;Neto(a);10;NÃO ENTRA
+Conjuge;2;0;0;Bisneto(a);11;NÃO ENTRA
+Conjuge;2;0;0;Irmão ou irmã;12;NÃO ENTRA
+Conjuge;2;0;0;Avô ou avó;13;NÃO ENTRA
+Conjuge;2;0;0;Outros;20;AMBIGUO
+Filho(a) do responsável e do cônjuge;4;1;0;Filho(a) do responsável e do cônjuge;4;O PROPRIO
+Filho(a) do responsável e do cônjuge;4;0;0;Pessoa responsável pelo domicílio ;1;PAI/MÃE
+Filho(a) do responsável e do cônjuge;4;0;0;Conjuge;2;PAI/MÃE
+Filho(a) do responsável e do cônjuge;4;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Enteado(a);6;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Genro ou nora;7;AMBIGUO
+Filho(a) do responsável e do cônjuge;4;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Sogro(a);9;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Neto(a);10;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Bisneto(a);11;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Irmão ou irmã;12;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Avô ou avó;13;NÃO ENTRA
+Filho(a) do responsável e do cônjuge;4;0;0;Outros;20;AMBIGUO
+Filho(a) somente do responsável;5;1;0;Filho(a) somente do responsável;5;O PROPRIO
+Filho(a) somente do responsável;5;0;0;Pessoa responsável pelo domicílio ;1;PAI/MÃE
+Filho(a) somente do responsável;5;0;0;Conjuge;2;PAI/MÃE
+Filho(a) somente do responsável;5;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Enteado(a);6;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Genro ou nora;7;AMBIGUO
+Filho(a) somente do responsável;5;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Sogro(a);9;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Neto(a);10;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Bisneto(a);11;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Irmão ou irmã;12;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Avô ou avó;13;NÃO ENTRA
+Filho(a) somente do responsável;5;0;0;Outros;20;AMBIGUO
+Enteado(a);6;1;0;Enteado(a);6;O PROPRIO
+Enteado(a);6;0;0;Pessoa responsável pelo domicílio ;1;PAI/MÃE
+Enteado(a);6;0;0;Conjuge;2;AMBIGUO
+Enteado(a);6;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Enteado(a);6;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Enteado(a);6;0;0;Enteado(a);6;NÃO ENTRA
+Enteado(a);6;0;0;Genro ou nora;7;NÃO ENTRA
+Enteado(a);6;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Enteado(a);6;0;0;Sogro(a);9;NÃO ENTRA
+Enteado(a);6;0;0;Neto(a);10;NÃO ENTRA
+Enteado(a);6;0;0;Bisneto(a);11;NÃO ENTRA
+Enteado(a);6;0;0;Irmão ou irmã;12;NÃO ENTRA
+Enteado(a);6;0;0;Avô ou avó;13;NÃO ENTRA
+Enteado(a);6;0;0;Outros;20;AMBIGUO
+Genro ou nora;7;1;0;Genro ou nora;7;O PROPRIO
+Genro ou nora;7;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Genro ou nora;7;0;0;Conjuge;2;NÃO ENTRA
+Genro ou nora;7;0;0;Filho(a) do responsável e do cônjuge;4;AMBIGUO
+Genro ou nora;7;0;0;Filho(a) somente do responsável;5;AMBIGUO
+Genro ou nora;7;0;0;Enteado(a);6;AMBIGUO
+Genro ou nora;7;0;0;Genro ou nora;7;NÃO ENTRA
+Genro ou nora;7;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Genro ou nora;7;0;0;Sogro(a);9;NÃO ENTRA
+Genro ou nora;7;0;0;Neto(a);10;NÃO ENTRA
+Genro ou nora;7;0;0;Bisneto(a);11;NÃO ENTRA
+Genro ou nora;7;0;0;Irmão ou irmã;12;NÃO ENTRA
+Genro ou nora;7;0;0;Avô ou avó;13;NÃO ENTRA
+Genro ou nora;7;0;0;Outros;20;AMBIGUO
+Pai, mãe, padrasto ou madrasta;8;1;0;Pai, mãe, padrasto ou madrasta;8;O PROPRIO
+Pai, mãe, padrasto ou madrasta;8;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Conjuge;2;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Enteado(a);6;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Genro ou nora;7;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Pai, mãe, padrasto ou madrasta;8;CONJUGE
+Pai, mãe, padrasto ou madrasta;8;0;0;Sogro(a);9;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Neto(a);10;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Bisneto(a);11;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Irmão ou irmã;12;NÃO ENTRA
+Pai, mãe, padrasto ou madrasta;8;0;0;Avô ou avó;13;PAI/MÃE
+Pai, mãe, padrasto ou madrasta;8;0;0;Outros;20;AMBIGUO
+Sogro(a);9;1;0;Sogro(a);9;O PROPRIO
+Sogro(a);9;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Sogro(a);9;0;0;Conjuge;2;NÃO ENTRA
+Sogro(a);9;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Sogro(a);9;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Sogro(a);9;0;0;Enteado(a);6;NÃO ENTRA
+Sogro(a);9;0;0;Genro ou nora;7;NÃO ENTRA
+Sogro(a);9;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Sogro(a);9;0;0;Sogro(a);9;CONJUGE
+Sogro(a);9;0;0;Neto(a);10;NÃO ENTRA
+Sogro(a);9;0;0;Bisneto(a);11;NÃO ENTRA
+Sogro(a);9;0;0;Irmão ou irmã;12;NÃO ENTRA
+Sogro(a);9;0;0;Avô ou avó;13;NÃO ENTRA
+Sogro(a);9;0;0;Outros;20;AMBIGUO
+Neto(a);10;1;0;Neto(a);10;O PROPRIO
+Neto(a);10;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Neto(a);10;0;0;Conjuge;2;NÃO ENTRA
+Neto(a);10;0;0;Filho(a) do responsável e do cônjuge;4;AMBIGUO
+Neto(a);10;0;0;Filho(a) somente do responsável;5;AMBIGUO
+Neto(a);10;0;0;Enteado(a);6;AMBIGUO
+Neto(a);10;0;0;Genro ou nora;7;AMBIGUO
+Neto(a);10;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Neto(a);10;0;0;Sogro(a);9;NÃO ENTRA
+Neto(a);10;0;0;Neto(a);10;NÃO ENTRA
+Neto(a);10;0;0;Bisneto(a);11;NÃO ENTRA
+Neto(a);10;0;0;Irmão ou irmã;12;NÃO ENTRA
+Neto(a);10;0;0;Avô ou avó;13;NÃO ENTRA
+Neto(a);10;0;0;Outros;20;AMBIGUO
+Bisneto(a);11;1;0;Bisneto(a);11;O PROPRIO
+Bisneto(a);11;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Bisneto(a);11;0;0;Conjuge;2;NÃO ENTRA
+Bisneto(a);11;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Bisneto(a);11;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Bisneto(a);11;0;0;Enteado(a);6;NÃO ENTRA
+Bisneto(a);11;0;0;Genro ou nora;7;NÃO ENTRA
+Bisneto(a);11;0;0;Pai, mãe, padrasto ou madrasta;8;NÃO ENTRA
+Bisneto(a);11;0;0;Sogro(a);9;NÃO ENTRA
+Bisneto(a);11;0;0;Neto(a);10;AMBIGUO
+Bisneto(a);11;0;0;Bisneto(a);11;NÃO ENTRA
+Bisneto(a);11;0;0;Irmão ou irmã;12;NÃO ENTRA
+Bisneto(a);11;0;0;Avô ou avó;13;NÃO ENTRA
+Bisneto(a);11;0;0;Outros;20;AMBIGUO
+Irmão ou irmã;12;1;0;Irmão ou irmã;12;O PROPRIO
+Irmão ou irmã;12;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Irmão ou irmã;12;0;0;Conjuge;2;NÃO ENTRA
+Irmão ou irmã;12;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Irmão ou irmã;12;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Irmão ou irmã;12;0;0;Enteado(a);6;NÃO ENTRA
+Irmão ou irmã;12;0;0;Genro ou nora;7;NÃO ENTRA
+Irmão ou irmã;12;0;0;Pai, mãe, padrasto ou madrasta;8;PAI/MÃE
+Irmão ou irmã;12;0;0;Sogro(a);9;NÃO ENTRA
+Irmão ou irmã;12;0;0;Neto(a);10;NÃO ENTRA
+Irmão ou irmã;12;0;0;Bisneto(a);11;NÃO ENTRA
+Irmão ou irmã;12;0;0;Irmão ou irmã;12;NÃO ENTRA
+Irmão ou irmã;12;0;0;Avô ou avó;13;NÃO ENTRA
+Irmão ou irmã;12;0;0;Outros;20;AMBIGUO
+Avô ou avó;13;1;0;Avô ou avó;13;O PROPRIO
+Avô ou avó;13;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Avô ou avó;13;0;0;Conjuge;2;NÃO ENTRA
+Avô ou avó;13;0;0;Filho(a) do responsável e do cônjuge;4;NÃO ENTRA
+Avô ou avó;13;0;0;Filho(a) somente do responsável;5;NÃO ENTRA
+Avô ou avó;13;0;0;Enteado(a);6;NÃO ENTRA
+Avô ou avó;13;0;0;Genro ou nora;7;NÃO ENTRA
+Avô ou avó;13;0;0;Pai, mãe, padrasto ou madrasta;8;AMBIGUO
+Avô ou avó;13;0;0;Sogro(a);9;NÃO ENTRA
+Avô ou avó;13;0;0;Neto(a);10;NÃO ENTRA
+Avô ou avó;13;0;0;Bisneto(a);11;NÃO ENTRA
+Avô ou avó;13;0;0;Irmão ou irmã;12;NÃO ENTRA
+Avô ou avó;13;0;0;Avô ou avó;13;AMBIGUO
+Avô ou avó;13;0;0;Outros;20;AMBIGUO
+Outros;20;1;0;Outros;20;O PROPRIO
+Outros;20;0;0;Pessoa responsável pelo domicílio ;1;NÃO ENTRA
+Outros;20;0;0;Conjuge;2;AMBIGUO
+Outros;20;0;0;Filho(a) do responsável e do cônjuge;4;AMBIGUO
+Outros;20;0;0;Filho(a) somente do responsável;5;AMBIGUO
+Outros;20;0;0;Enteado(a);6;AMBIGUO
+Outros;20;0;0;Genro ou nora;7;AMBIGUO
+Outros;20;0;0;Pai, mãe, padrasto ou madrasta;8;AMBIGUO
+Outros;20;0;0;Sogro(a);9;AMBIGUO
+Outros;20;0;0;Neto(a);10;AMBIGUO
+Outros;20;0;0;Bisneto(a);11;AMBIGUO
+Outros;20;0;0;Irmão ou irmã;12;AMBIGUO
+Outros;20;0;0;Avô ou avó;13;AMBIGUO
+Outros;20;0;0;Outros;20;AMBIGUO

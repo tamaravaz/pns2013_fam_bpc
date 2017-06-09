@@ -1,0 +1,37 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Freitas et al. 2007]{fambpcfreitas}
+\abntrefinfo{Freitas et al.}{FREITAS et al.}{2007}
+{FREITAS, A.~J. de et al. Avalia{\c{c}}{\~a}o do efeito da mudan{\c{c}}a do
+  conceito de fam{\'\i}lia bpc.
+\emph{Avalia{\c{c}}{\~a}o de pol{\'\i}ticas e programas do MDS--resultados},
+  p.~237, 2007.}
+
+\bibitem[Medeiros, Granja e Neto 2009]{medeiros2009mudancca}
+\abntrefinfo{Medeiros, Granja e Neto}{MEDEIROS; GRANJA; NETO}{2009}
+{MEDEIROS, M.; GRANJA, F.~H.; NETO, M. S. \emph{Mudan{\c{c}}a do conceito de
+  fam{\'\i}lia do benef{\'\i}cio de presta{\c{c}}{\~a}o continuada}.
+[S.l.], 2009.}
+
+\bibitem[Penalva, Diniz e Medeiros 2010]{bpc_stf}
+\abntrefinfo{Penalva, Diniz e Medeiros}{PENALVA; DINIZ; MEDEIROS}{2010}
+{PENALVA, J.; DINIZ, D.; MEDEIROS, M. O benef{\'\i}cio de presta{\c{c}}{\~a}o
+  continuada no supremo tribunal federal.
+\emph{Sociedade e Estado}, SciELO Brasil, v.~25, n.~1, p. 53--70, 2010.}
+
+\bibitem[Venturini 2016]{adriana2016}
+\abntrefinfo{Venturini}{VENTURINI}{2016}
+{VENTURINI, A.
+\emph{A remodelação da Política Social do Benefício de Prestação
+  Continuada pelo Judiciário}.
+58~f. Dissertação (Mestrado profissional em Políticas Públicas e
+  Desenvolvimento) --- Ipea/Enap, Brasília, 2016.
+Dispon{\'\i}vel em:
+  \url{http://www.mestradoprofissional.gov.br/sites/images/mestrado/turma2/adriana-maia-venturini.pdf}.}
+
+\end{thebibliography}
