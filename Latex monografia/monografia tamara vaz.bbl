@@ -5,6 +5,39 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Barros, Carvalho e Franco 2006]{barros2006pobreza}
+\abntrefinfo{Barros, Carvalho e Franco}{BARROS; CARVALHO; FRANCO}{2006}
+{BARROS, R. P.~d.; CARVALHO, M.~d.; FRANCO, S. Pobreza multidimensional no
+  brasil.
+Instituto de Pesquisa Econ{\^o}mica Aplicada (Ipea), 2006.}
+
+\bibitem[Brasil 2011]{loas2011}
+\abntrefinfo{Brasil}{BRASIL}{2011}
+{BRASIL. Lei n{\textordmasculine} 12.435, de 6 de julho de 2011. altera a lei
+  no 8.742, de 7 de dezembro de 1993, que disp{\~o}e sobre a
+  organiza{\c{c}}{\~a}o da assist{\^e}ncia social.
+\emph{Di{\'a}rio Oficial da Rep{\'u}blica Federativa do Brasil}, 2011.}
+
+\bibitem[Brasil 2013]{acordao_STF_BPC}
+\abntrefinfo{Brasil}{BRASIL}{2013}
+{BRASIL. Acórdão do recurso extraordinário 580.963 pr.
+In:  \underline{\ \ \ \ \ \ \ \ }. Supremo Tribunal Federal, 2013.
+Dispon{\'\i}vel em:
+  \url{http://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=TP&docID=4864062}.}
+
+\bibitem[Diaz 2003]{diaz2003desigualdades}
+\abntrefinfo{Diaz}{DIAZ}{2003}
+{DIAZ, M. D.~M. Desigualdades socioecon{\^o}micas na sa{\'u}de.
+\emph{Revista brasileira de economia}, SciELO Brasil, v.~57, n.~1, p. 7--25,
+  2003.}
+
+\bibitem[Diniz, Squinca e Medeiros 2006]{diniz2006deficiencia}
+\abntrefinfo{Diniz, Squinca e Medeiros}{DINIZ; SQUINCA; MEDEIROS}{2006}
+{DINIZ, D.; SQUINCA, F.; MEDEIROS, M. Defici{\^e}ncia, cuidado e justi{\c{c}}a
+  distributiva.
+\emph{Fontes M, Costa S, Squinca F, organizadores. T{\'o}picos em bio{\'e}tica.
+  Bras{\'\i}lia: Editora Letras Livres}, p. 82--94, 2006.}
+
 \bibitem[Freitas et al. 2007]{fambpcfreitas}
 \abntrefinfo{Freitas et al.}{FREITAS et al.}{2007}
 {FREITAS, A.~J. de et al. Avalia{\c{c}}{\~a}o do efeito da mudan{\c{c}}a do
@@ -12,11 +45,22 @@
 \emph{Avalia{\c{c}}{\~a}o de pol{\'\i}ticas e programas do MDS--resultados},
   p.~237, 2007.}
 
+\bibitem[Humphries e Doorslaer 2000]{humphries2000income}
+\abntrefinfo{Humphries e Doorslaer}{HUMPHRIES; DOORSLAER}{2000}
+{HUMPHRIES, K.~H.; DOORSLAER, E. V. Income-related health inequality in canada.
+\emph{Social science \& medicine}, Elsevier, v.~50, n.~5, p. 663--671, 2000.}
+
 \bibitem[Medeiros, Granja e Neto 2009]{medeiros2009mudancca}
 \abntrefinfo{Medeiros, Granja e Neto}{MEDEIROS; GRANJA; NETO}{2009}
 {MEDEIROS, M.; GRANJA, F.~H.; NETO, M. S. \emph{Mudan{\c{c}}a do conceito de
   fam{\'\i}lia do benef{\'\i}cio de presta{\c{c}}{\~a}o continuada}.
 [S.l.], 2009.}
+
+\bibitem[Neri e Soares 2002]{neri2002desigualdade}
+\abntrefinfo{Neri e Soares}{NERI; SOARES}{2002}
+{NERI, M.; SOARES, W. Desigualdade social e sa{\'u}de no brasil. social
+  inequality and health in brazil.
+\emph{Cadernos de Sa{\'u}de P{\'u}blica}, SciELO Brasil, 2002.}
 
 \bibitem[Penalva, Diniz e Medeiros 2010]{bpc_stf}
 \abntrefinfo{Penalva, Diniz e Medeiros}{PENALVA; DINIZ; MEDEIROS}{2010}
@@ -24,14 +68,31 @@
   continuada no supremo tribunal federal.
 \emph{Sociedade e Estado}, SciELO Brasil, v.~25, n.~1, p. 53--70, 2010.}
 
+\bibitem[Souza, Os{\'o}rio e Soares 2011]{metodologiaOsorio2011}
+\abntrefinfo{Souza, Os{\'o}rio e Soares}{SOUZA; OS{\'O}RIO; SOARES}{2011}
+{SOUZA, P.~H. de; OS{\'O}RIO, R.~G.; SOARES, S.~S. \emph{Uma metodologia para
+  simular o Programa Bolsa Fam{\'\i}lia}.
+[S.l.], 2011.}
+
+\bibitem[UNICEF et al. 2012]{unicef2012iniciativa}
+\abntrefinfo{UNICEF et al.}{UNICEF et al.}{2012}
+{UNICEF et al. Iniciativa global pelas crian{\c{c}}as fora da escola.
+\emph{Bras{\'\i}lia, UNICEF}, 2012.}
+
 \bibitem[Venturini 2016]{adriana2016}
 \abntrefinfo{Venturini}{VENTURINI}{2016}
-{VENTURINI, A.
-\emph{A remodelação da Política Social do Benefício de Prestação
-  Continuada pelo Judiciário}.
-58~f. Dissertação (Mestrado profissional em Políticas Públicas e
-  Desenvolvimento) --- Ipea/Enap, Brasília, 2016.
-Dispon{\'\i}vel em:
-  \url{http://www.mestradoprofissional.gov.br/sites/images/mestrado/turma2/adriana-maia-venturini.pdf}.}
+{VENTURINI, A.~M.
+\emph{{A remodelação da política social do Benefício de Prestação
+  Continuada pelo Judiciário}}.
+Disserta\c{c}\~{a}o (Mestrado profissional em Políticas Púlicas e
+  Desenvolvimento) --- Instituto de Pesquisa Econômica Aplicada, Programa de
+  Pós-Graduação em Políticas Públicas e Desenvolvimento, Brasília, 2016.}
+
+\bibitem[Zoghbi, Moriconi e Maciel 2007]{zoghbi2007analise}
+\abntrefinfo{Zoghbi, Moriconi e Maciel}{ZOGHBI; MORICONI; MACIEL}{2007}
+{ZOGHBI, A. C.~P.; MORICONI, G.~M.; MACIEL, V.~F. Uma an{\'a}lise sobre os
+  efeitos cruzados da habita{\c{c}}{\~a}o e da infra-estrutura em
+  rela{\c{c}}{\~a}o {\`a} sa{\'u}de.
+\emph{Anais eletr{\^o}nicos do 31{\textordmasculine} Enanpad}, 2007.}
 
 \end{thebibliography}

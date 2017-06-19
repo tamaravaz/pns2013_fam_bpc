@@ -61,6 +61,9 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{multirow}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{pdflscape}
 % ---
 		
 % ---
@@ -405,6 +408,10 @@ O Benefício de Prestação Continuada é a garantia de um salário mínimo mens
 % Pobreza e sua dimensões
 % ---
 \chapter{Pobreza e sua dimensões}
+O grande pressuposto das análises baseadas na dimensão de renda para a análise de pobreza é que essa é capaz de refletir a miséria do indivíduo em todas as demais dimensões. Isso corre por tratar-se por hipótese que a renda é capaz de comprar o bem estar básico. A linha de pobreza reflete, ou deveria, o mínimo necessário para a existência. Decorre imediatamente dessa suposição que existem mercados acessíveis em que esse indivíduo possa recorrer afim de "comprar" o seu bem estar. No entando, as nítidas imperfeições de mercado podem fazer com que mesmo havendo recurso não haja esse acesso aos bens básico. Outra discussão seria a homogeneidade de um corte de renda igual para todos os indivíduos: notoriamente uma simples diferença geográfica pode alterar o nível de pobreza para um mesmo corte de renda. 
+
+
+
 % ---
 
 % ---
@@ -412,20 +419,24 @@ O Benefício de Prestação Continuada é a garantia de um salário mínimo mens
 % ---
 \chapter{Métodos e procedimentos}
 	\section{Dados}
-	A Pesquisa Nacional de Saúde de 2013 (PNS), do Instituto Brasileiro de Geografia e Estatística (IBGE), foi escolhida para prover os dados necessários para estimar o número de elegíveis idosos e pessoas com deficiência do BPC e calcular suas rendas familiares \textit{per capita} e índices de pobreza multidimensional. A escolha é pautada na abrangência nacional e disponibilidade de informações necessárias aos objetivos descritos acima, tais como: relação de parentesco entre membros do domicílio, recebimento de aposentadoria, presença de deficiência por tipos, grau de limitação das atividades habituais causadas pela deficiência, rendas do indivíduo, informações sobre saúde e domicílio, etc.   
-	O tamanho da amostra é de aproximadamente XX mi de indivíduos, representando uma população de XX milhões. A subpopulação de interesse são os indivíduos que são elegíveis ao recebimento do BPC, excluindo-se a regra de renda, e os indivíduos que compõem o mesmo domicílio do suposto beneficiário, somando umas população de 5,8 milhões, sendo 3,8 milhões de elegíveis .
+	A Pesquisa Nacional de Saúde de 2013 (PNS), do Instituto Brasileiro de Geografia e Estatística (IBGE), foi escolhida para prover os dados necessários para estimar o número de elegíveis idosos e pessoas com deficiência do BPC, calcular suas rendas familiares \textit{per capita} e índices de pobreza multidimensional. A escolha é pautada na abrangência nacional e disponibilidade de informações necessárias aos objetivos descritos acima, tais como: reldeação de parentesco entre membros do domicílio, recebimento  aposentadoria, presença de deficiência por tipos, grau de limitação das atividades habituais causadas pela deficiência, rendas do indivíduo, informações sobre saúde e domicílio, etc.   
+	O tamanho da amostra é de aproximadamente 206 mil indivíduos, representando uma população de 200 milhões. A subpopulação de interesse são os indivíduos que são elegíveis ao recebimento do BPC, excluindo-se a regra de renda, e os indivíduos que compõem o mesmo domicílio do suposto beneficiário, somando umas população de xxxx milhões, sendo 4,2 milhões de preeleitos .
 	
 	\section{Identificação dos pré elegíveis e reconstrução da família BPC}
 	
-	A Pesquisa nacional de saúde define o conceito de família como sendo um arranjo familiar domiciliar, consistindo em um conjunto de parentes que vivem sob o mesmo teto, eventualmente sendo adicionadas pessoas que compartilhem recursos ou despesas dentro desse domicílio. As relações de parentesco na PNS são definidas entre cada componente da família e a pessoa responsável pela Unidade familiar. O responsável pelo domicílio é eleito pelo próprio morador entrevistado. Descoincidentemente a PNS, o BPC usa uma definição de família em que o próprio beneficiário é colocado como a pessoa de referência. Ademais, a Lei Orgânica de Assistência Social elenca os possíveis parentes que podem fazer parte dessa família do beneficiário.
+	A Pesquisa nacional de saúde define o conceito de família como sendo um arranjo familiar domiciliar, consistindo em um conjunto de parentes que vivem sob o mesmo teto, eventualmente sendo adicionadas pessoas que compartilhem recursos ou despesas dentro desse domicílio. As relações de parentesco na PNS são definidas entre cada componente da família e a pessoa responsável pela Unidade familiar. O responsável pelo domicílio é eleito pelo próprio morador entrevistado. Em contraste com a PNS, o BPC usa uma definição de família em que o próprio beneficiário é colocado como a pessoa de referência. Ademais, a Lei Orgânica de Assistência Social elenca os possíveis parentes que podem fazer parte dessa família do beneficiário:
 	
-	Pode-se assumir que o conceito de família no BPC está contido na definição da PNS. No entanto, esses conceitos apresentam diversas complicações quanto a  possibilidade de comparação fidedigna. Primeiro, os conceitos de pessoa de referência não são os mesmos, de modo que para se obter o grupo familiar do BPC a partir da família PNS, deve-se supor que o beneficiário é a pessoa de referência e reclassificar os demais. Por consequência, apesar da PNS apresentar um conceito mais amplo, não há nenhuma forma de representação de relações entre os componentes do domicílio, exceto com o responsável. Ou seja, embora seja possível saber que há famílias conviventes, não é trivial reconstruir com precisão os demais laços entre os indivíduos do domicílio. Outra dificuldade se refere a  existência das categorias de outros parentes e não parentes, que inviabiliza qualquer suposição das relações desses com os demais. 
+	\begin{citacao}
+		§ 1º Para os efeitos do disposto no caput, a família é composta pelo requerente, o cônjuge ou companheiro, os pais e, na ausência de um deles, a madrasta ou o padrasto, os irmãos solteiros, os filhos e enteados solteiros e os menores tutelados, desde que vivam sob o mesmo teto \cite[art.20]{loas2011}.
+	\end{citacao}
 	
-	A identificação dos beneficiários do BPC foi feita em duas etapas: a primeira foi a identificação dos pré elegíveis, em que há uma aplicação de filtros que reconstruíssem as regras de elegibilidade, exceto renda \textit{per capita}, dada a necessidade de captar beneficiários que estão acima do corte de elegibilidade; depois o cálculo da renda per capita familiar.
+	Pode-se assumir que o conceito de família no BPC está contido na definição da PNS. No entanto, esses conceitos apresentam diversas complicações quanto a  possibilidade de comparação fidedigna. Primeiro, os conceitos de pessoa de referência não são os mesmos, de modo que para se obter o grupo familiar do BPC a partir da família PNS, deve-se supor que o beneficiário é a pessoa de referência e reclassificar os demais. Outra dificuldade está na inexistência de representação das relações entre os componentes do domicílio, exceto com o responsável. Ou seja, embora seja possível saber que há famílias conviventes, não é trivial reconstruir com precisão os demais laços entre os indivíduos do domicílio. Além disso, a existência das categorias de outros parentes e não parentes inviabiliza qualquer suposição das relações desses com os demais. 
 	
-	A primeira regra a ser observada é o público alvo: idosos e pessoas com deficiência. Para captar os idosos, foi criada uma \textit{dummy} indicando se o indivíduo tem 65 anos ou mais e não era beneficiário no âmbito da seguridade social ( como, aposentadoria e pensão). No caso das pessoas com deficiência, além de não poderem ser beneficiários de aposentadorias ou pensões, o BPC explicita critérios para essa definição em duas etapas: uma avaliação médica e uma social, que investiga restrições provenientes da interação entre deficiência e o meio em que vive. Como esse critério é genérico e abstrato, utilizou-se de dois blocos de perguntas disponíveis na PNS: o primeiro identifica se o indivíduo tem alguma deficiência intelectual, física, auditiva e visual. O segundo refere-se ao grau de limitação das atividades habituais geradas por essas deficiências. Essas limitações são  classificadas como: não limita, um pouco, moderadamente, intensamente e muito intensamente/ não consegue. Para esse estudo foram considerados dois níveis, sendo um em que considera-se deficientes elegíveis pessoas com grau de limitação maior ou igual à moderado e outro maior ou igual à intensamente. A tabela \ref*{tab_resumo_regras} apresenta as principais regras de elegibilidade do programa.
+	A identificação dos beneficiários do BPC foi feita em duas etapas: a primeira foi a identificação dos preeleitos, em que há uma aplicação de filtros que reconstruíssem as regras de elegibilidade, exceto renda \textit{per capita}, dada a necessidade de captar beneficiários que estão acima do corte de elegibilidade; depois o cálculo da renda per capita familiar.
 	
-	\begin{table}[h]
+	A primeira regra a ser observada é o público alvo: idosos e pessoas com deficiência. Para captar os idosos, foi criada uma \textit{dummy} indicando se o indivíduo tem 65 anos ou mais e não era beneficiário no âmbito da seguridade social (como aposentadoria e pensão). No caso das pessoas com deficiência, além de não poderem ser beneficiários de aposentadorias ou pensões, o BPC explicita critérios para definir deficiência em duas etapas: uma avaliação médica e uma social, que investiga restrições provenientes da interação entre deficiência e o meio em que vive. Como esse critério é genérico e abstrato, utilizou-se de dois blocos de perguntas disponíveis na PNS: o primeiro identifica se o indivíduo tem alguma deficiência intelectual, física, auditiva e visual. O segundo refere-se ao grau de limitação das atividades habituais geradas por essas deficiências. Essas limitações são  classificadas como: não limita, um pouco, moderadamente, intensamente e muito intensamente/ não consegue. Para esse estudo foram considerados deficientes elegíveis pessoas com grau de limitação maior ou igual a moderado. A tabela \ref*{tab_resumo_regras} apresenta as principais regras de elegibilidade do programa.
+	
+	\begin{table}[H]
 		\footnotesize
 		\centering
 		\caption{Regras de elegibilidade para o BPC}
@@ -436,20 +447,20 @@ O Benefício de Prestação Continuada é a garantia de um salário mínimo mens
 			\multicolumn{1}{|c|}{\textbf{Idoso}}                                                                                                                                                                    & \multicolumn{1}{c|}{\textbf{Pessoa com deficiência}}                                                                                                                                                    \\ \hline
 			Mínimo de 65 anos                                                                                                                                                                                       & Condição incapacitante para a vida independente e para o trabalho atestada pela perícia médica e social do INSS                                                                                       \\ \hline
 			Renda per capita familiar de até 1/4 de salário mínimo                                                                                                                                                  & Renda per capita familiar de até 1/4 de salário mínimo                                                                                                                                                  \\ \hline
-			Não acumular com aposentadorias e pensão ou de outro regime, exceto com benefícios da assistência médica, pensões especiais de natureza indenizatória e remuneração advinda de contrato de aprendizagem & Não acumular com aposentadorias e pensão ou de outro regime, exceto com benefícios da assistência médica, pensões especiais de natureza indenizatória e remuneração advinda de contrato de aprendizagem \\ \hline
+			Não acumular com aposentadorias e pensão ou de outro regime, exceto com benefícios da assistência médica e pensões especiais de natureza indenizatória & Não acumular com aposentadorias e pensão ou de outro regime, exceto com benefícios da assistência médica, pensões especiais de natureza indenizatória e remuneração advinda de contrato de aprendizagem \\ \hline
 		\end{tabular}
 	}
 	\end{table}
 	
 	
-	Após identificadas as pessoas pré elegíveis ao benefício, necessita-se indicar quem entraria em sua composição familiar para fins de cálculo de renda \textit{per capita}. O método aqui utilizado baseia-se na única informação de vínculo entre os indivíduos existente na PNS: a condição da pessoa no domicílio. Assim, foi criada de uma tabela verdade que refaz as relações tomando por hipótese que a pessoa identificada como pré elegível é a pessoa de referência. Depois, são refeitas as classificações dos demais indivíduos do domicílio usando as regras descritas na LOAS para cada posição hipotética do beneficiário. O método leva em consideração a posição original do beneficiário no domicílio, a posição dos demais indivíduos, estado civil e indicativo de quem é o pré eleito ao benefício. 
+	Após a identificação das pessoas preeleitas ao benefício, foram replicados os domicílios que tivessem mais de um preeleito de modo que cada domicílio replicado tivesse um dos preeleito contido no domicílio original como pessoa de referência. Os pesos foram recalibrados para manter o total da população e domicílios. A seguir, foi indicado quem entraria em sua composição familiar para fins de cálculo de renda \textit{per capita}. O método aqui utilizado baseia-se na única informação de vínculo entre os indivíduos existente na PNS: a condição da pessoa no domicílio. Assim, foi criada uma tabela verdade que refaz as relações familiares, tomando por hipótese que a pessoa identificada como pré elegível é a pessoa de referência. Depois, são refeitas as classificações dos demais indivíduos do domicílio usando as regras descritas na LOAS para cada posição hipotética do beneficiário. O método leva em consideração a posição original do beneficiário no domicílio, a posição dos demais indivíduos, estado civil e indicativo de quem é o preeleito ao benefício. 
 	
-	A tabela XXXX contém 360 regras, podendo-se chegar a esse número tal que:
+	A tabela verdade contém 360 regras, que pode ser vista no anexo \ref{anexo_reclass}, podendo-se chegar a esse número tal que:
 	\begin{equation}
 	((13)Pos_{titular} \cdot  (14)Pos_{todos}  \cdot (2)Estado_{civil} )-4 = 360
 	\end{equation}
 	
-	Onde $ Pos_{titular} $ são as posições passíveis de serem assumidas pelo beneficiário dentro do domicílio, $ Pos_{todos} $ são as posições possíveis dos demais indivíduos do domicílio e inclusive ele mesmo e $ Estado_{civil}  $ é a possibilidade de ser solteiro ou casado. Pode-se observar que para todas as possíveis condições no domicílio, exceto pessoa de referência e conjugê, podem haver dois ou mais indivíduos na mesma posição que a do beneficiário, uma onde ele é o próprio e as demais em que a pessoa tem a mesma condição que ele. Por isso há a redução de 4 ao fim da equação, referente às duas posições que não podem existir mais de um individuo na mesma condição, tanto para solteiro quanto para não solteiro.
+	Onde $ Pos_{titular} $ são as 13 posições passíveis de serem assumidas pelo beneficiário dentro do domicílio, $ Pos_{todos} $ são as 14 posições $ (Pos_{titular}+1) $ possíveis dos demais indivíduos do domicílio e inclusive ele mesmo, onde o adicional de uma categoria advém da possibilidade de haver outra pessoa na mesma condição que o beneficiário, e $ Estado_{civil}  $ é a possibilidade de ser solteiro ou casado. Pode-se observar que para todas as possíveis condições no domicílio, exceto pessoa de referência e conjugê, podem haver dois ou mais indivíduos na mesma posição que a do beneficiário, uma onde ele é o próprio e as demais em que a pessoa tem a mesma condição que ele. Por isso há a redução de 4 ao fim da equação, referente às duas posições que não podem existir mais de um individuo na mesma condição, tanto para solteiro quanto para não solteiro.
 	
 	\subsection{Ambiguidades e tratamento}
 	Dentro da PNS nao há nenhuma questão que investigue as relações familiares dentro de um domicílio entre os demais componentes, exceto o responsável pelo domicílio. Assim, algumas imputações foram feitas respeitando a restrição de estado civil. As condições descritas abaixo estão em relação ao responsável do domicílio.
@@ -457,13 +468,13 @@ O Benefício de Prestação Continuada é a garantia de um salário mínimo mens
 			\item Enteado é filho ou enteado do cônjuge
 			\item Filhos só do responsável ou de ambos são irmão dos Enteados
 			\item Enteado é irmão de enteado
-			\item Irmãos são filhos do Pai, mãe, padrasto ou madrasta
+			\item Irmãos são filhos ou enteados do Pai, mãe, padrasto ou madrasta
 			\item Sogro(a) são casados entre si
 		\end{itemize}
 	No entanto, algumas das categorias apresentam pouco ou nenhum indicativo de relação de parentesco com os demais e por isso foram agrupadas como "outros", são elas: outro parente, agregados, conviventes, pensionistas, empregado doméstico e parente do empregado doméstico. Para esses casos foi considerada apenas que eles não fazem parte da família BPC do responsável pelo domicílio e nem esse faria partes daqueles. O restante das reclassificações cruzadas para essas pessoas foram marcadas como ambíguas. Outras marcações ambíguas também foram feitas quando não foi possível sequer fazer imputação. A tabela \ref*{tab_resumo_reclass} resume as regras de reclassificações e indica as ambiguidades. 
 	
 	
-\begin{table}[h]
+\begin{table}[H]
 			\footnotesize
 	\centering
 	\caption{Membros da Família BPC segundo a relação do mesmo com o responsável pelo domicílio na PNS }
@@ -486,15 +497,179 @@ O Benefício de Prestação Continuada é a garantia de um salário mínimo mens
 		\end{tabular}%
 	}
 \end{table}
-
-
-	
-	O anexo \ref{anexo_reclass} apresenta todas as 360 regras de reclassificação.
 	
 	\section{Cálculo da renda \textit{per capita} familiar}
-	A LOAS identifica algumas fontes de renda que não podem ser computadas, as principais são: renda de trabalho na posição de aprendiz, renda do BPC de um idoso no cômputo da renda de outro idoso da mesma família e rendimentos provenientes de Bolsa Família. Os rendimentos provenientes do Programa Bolsa Família foram identificados por valores típicos. Para isso, foi utilizado o método seguido por \cite{metodologiaOsorio2011}. Depois de obtida a renda bruta familiar, essa foi dividida pelo número de pessoas que fazem parte do grupo familiar do beneficiário, encontrado pelo método de reclassificação. A partir disso, foram criados dois grupos: o primeiro de até 1/4 de salário mínimo \textit{per capita}), o qual respeita as regras atuais de elegibilidade; e outro maior que 1/4 e menor que 1/2.
+    A LOAS identifica algumas fontes de renda que não podem ser computadas, são elas: renda de trabalho na posição de aprendiz ou estagiário para pessoas com deficiência, renda do BPC de um idoso no cômputo da renda de outro idoso da mesma família, rendimentos provenientes de Bolsa Família e auxílios de natureza eventual e temporária. A PNS não contém indicativo da existência de trabalho como aprendiz, e por isso foi ignorada essa regra. A variável ``outras rendas'' na PNS inclui rendimentos provenientes de juro, dividendos, programas sociais, seguro-desemprego, seguro defeso e outros rendimentos, mas não discrimina cada um e tão pouco é possível identificar o que é eventual. Assim, o cálculo da renda \textit{per capita} familiar foi feita em 4 passos: soma de todas as rendas de todos os trabalhos por grupo familiar do beneficiário, identificação dos beneficiários idosos do BPC que recebiam o benefício, verificação de beneficiários do Programa Bolsa Família e o cômputo da renda para idosos e pessoas com deficiência, separando essas famílias em rendas \textit{per capita} menor ou igual a 1/4 do salário mínimo e outra em maior que 1/4 e menor ou igual a 1/2 do salário vigente. 
+      
+	Para o primeiro passo, após obter o grupo familiar a partir das regras do BPC, foram computadas as rendas totais de todos os trabalhos dos integrantes da família BPC e gerada uma renda total de trabalhos familiar. No segundo, foi verificados se os preeleitos ao BPC possuíam rendimentos na variável de "outras" rendas no valor de um salário mínimo de 2013, equivalente a 678 reais. No terceiro passo foram calculados os rendimentos provenientes do Programa Bolsa Família a partir de valores típicos. Para isso, foi utilizado o método seguido por \cite{metodologiaOsorio2011} aplicando-se as regras vigentes do programa em 2013. Por fim, foram calculadas as rendas por pessoas do grupamento familiar do preeleito de modo que da variável de ``outras renda'' foram retiradas as rendas do Programa Bolsa Família. O cômputo para idoso seguiu a regra descrita na LOAS onde a o benefício BPC de um idoso em um domicílio não entra no cômputo da renda familiar do outro idoso e vice versa.
 	
-	\section{Comparativo de pobreza entre grupos}
+	
+	\section{Cálculo do índice de pobreza multidimensional familiar}
+	O método utilizado para criação de um índice de pobreza multidimensional familiar seguiu o proposto por \citeonline{barros2006pobreza}. Uma das principais razões para a escolha se deu pela possibilidade de cálculo a nível familiar e sua característica aditivamente agregável. Ou seja, o índice permite ser calculado também a nível de grupos, o que para o propósito desse trabalho é relevante dada a existência da necessidade de comparação das famílias dos dois grupos sinteticamente criados por cortes de renda \textit{per capita} de menos de 1/4 e maior que 1/4 e menor ou igual a 1/2 do salário minimo vigente.
+	
+	 Os autores usam dados provenientes da Pesquisa Nacional por Amostra de Domicílio do Brasil que não contém informações sobre saúde, e por isso a suprimiram. Essa dimensão foi incluída no presente trabalho. Outra divergência quanto as dimensões proposta pelos autores foi a supressão do indicador de escassez de recursos. Isso ocorreu em razão do uso de renda \textit{per capita} para aferir esse indicador, de modo que não foi incluído afim de não dar peso a nenhum dos estratos de renda \textit{per capita} que são nosso grupo de interesse para fins de comparação dos demais indicadores. 
+	 
+	 A composição do índice construído aqui inclui ao todo, 6 dimensões, 17 componentes e 33 indicadores. Os indicadores foram gerados como sendo perguntas de sim ou não, em que cada sim é considerado um aumento no nível de pobreza familiar.
+	 
+	  Embora seja sabido que os pesos e os indicadores devem espelhar as preferências sociais, nesse trabalho foi seguido o método mais usual de definição dos indicadores por disponibilidade da base de dados usada e pesos idênticos a todos indicadores dentro de um mesmo componente, todos componentes dentro de uma mesma dimensão e para todas as dimensões. No entanto, pode haver uma diferenciação natural dos pesos advindos das diferentes composições quantitativas das dimensões e componente. Além disso, assim como os autores, foi utilizado também o efeito cascata de indicadores, permitindo que os pesos dentro de componentes sejam alterados. 
+	  
+	  As sete dimensões da pobreza são: 1) vulnerabilidade, 2) acesso ao conhecimento, 3) acesso ao trabalho, 4) desenvolvimento infantil, 5) carências habitacionais e 6) saúde. A baixo foram listados os componentes que foram cada dimensão e seus indicadores. 
+	  
+	  \subsection{Vulnerabilidade}
+	  Um dos pressupostos do BPC é de o deficiente ou idoso tem uma relação de dependência familiar, e essa deve ser responsável pela sua manutenção. Essa relação de dependência viria então a empobrecer a familiar via um aumento adicional de recursos necessários para se manterem \cite{diniz2006deficiencia}. Com esse entendimento, a dimensão de vulnerabilidade incluiu fatores que também podem contribuir com o aumento de recurso necessário para satisfazer as necessidades de uma família, são eles: fecundidade, tenção e cuidados especiais com crianças e adolescentes e dependência demográfica. Como toda família do BPC inclui idosos ou deficientes, não foi incluído nenhum indicador que captasse esse tipo de vulnerabilidade por ser redundante. A tabela \ref{ind_vulnerabilidade} apresenta os indicadores.
+	  
+\begin{table}[H]
+	\centering
+	\caption{Indicadores de vulnerabilidade familiar}
+	\label{ind_vulnerabilidade}
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{m{6cm}ll}
+		\hline
+		Fecundidade                                                                                                          & A1. & Mulher grávida no domicílio                             \\
+		&     &                                                         \\
+		\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Atenção e cuidados especiais com \\ crianças e adolescentes\end{tabular}} & A2. & Presença de criança                                     \\
+		& A3. & Presença de criança ou adolescente                      \\
+		&     &                                                         \\
+		\multirow{2}{*}{Dependência demográfica}                                                                             & A4. & Ausência de cônjuge                                     \\
+		& A5. & Menos da metade dos membros encontram-se em idade ativa \\ \hline
+	\end{tabular}
+}
+\end{table}
+
+ \subsection{Acesso insuficiente ao conhecimento}
+ Sabidamente o capital humano é pilar do desenvolvimento econômico: está entre os principais meios duradouros para superar pobreza e desigualdade e proporcionar crescimento econômico . Na PNS é possível identificar o analfabetismo formal e funcional e escolaridade dos indivíduos, como mostra a tabela \ref{ind_conhecimento}.
+ 
+ \begin{table}[H]
+ 	\footnotesize
+ 	\centering
+ 	\caption{Indicadores de acesso insuficiente ao conhecimento}
+ 	\label{ind_conhecimento}
+ 	\begin{tabular}{m{7cm}ll}
+ 		\hline
+ 		\multirow{2}{*}{Analfabetismo} & B1. & Presença de adulto analfabeto                   \\
+ 		& B2. & Presença de adulto analfabeto funcional         \\
+ 		&     &                                                 \\
+ 		\multirow{3}{*}{Escolaridade}  & B3. & Ausência de adulto com fundamental completo     \\
+ 		& B4. & Ausência de adulto com ensino médio completo    \\
+ 		& B5. & Ausência de adulto com alguma educação superior \\ \hline
+ 	\end{tabular}
+ \end{table}
+
+Reproduzindo o método escolhido, o efeito cascata pode ser percebido nos dois componentes dessa dimensão. No caso de analfabetismo, espera-se que analfabeto funcional seja também analfabeto formal, assim o analfabeto funcional recebe pesos duas vezes maior. Em escolaridade ocorre o mesmo: se não existe nenhum adulto com fundamental completo no domicílio, então também não existirá nenhum adulto com ensino médio completo e com educação superior, sendo o primeiro caso três vezes pior do que apenas não ter alguém ensino superior.   
+ 
+  \subsection{Acesso ao trabalho}
+  Embora os indivíduos possam não ter altos níveis de privação em relação ao acesso ao conhecimento, a pobreza pode se objetivar na privação do uso de suas capacidades dentro do mercado de trabalho. Para isso foi identificado na PNS a existência de indivíduos ocupados e a qualidade dessas ocupações, se em setor formal ou ao menos em setores fora de atividades agrícolas. Aqui também não foi investigado o rendimento dos ocupados, de modo a não dar mais peso a nenhum dos nossos estratos de rendas de interesse.  
+  
+
+	    \begin{table}[H]
+	  	\footnotesize
+	  	\centering
+	  	\caption{Indicadores acesso ao trabalho}
+	  	\label{ind_laboral}
+	  	\begin{tabular}{lll}
+	  		\hline
+	  		Disponibilidade de trabalho                     & C1. & Menos da metade dos membros em idade ativa encontram-se ocupados \\
+	  		&     &                                                                  \\
+	  		\multirow{2}{*}{Qualidade do posto de trabalho} & C2. & Ausência de ocupado no setor formal                              \\
+	  		& C3. & Ausência de ocupado em atividade não-agrícola                    \\ \hline
+	  	\end{tabular}
+	  \end{table}
+  
+  \subsection{Desenvolvimento infantil}
+  Manter crianças dentro da escola é um esforço tanto nacional como internacional. O relatório de \citeonline{unicef2012iniciativa} demonstra que as crianças mais vulnerareis a exclusão escolar têm extensões de vulnerabilidades na vida, o que indica uma situação crítica de pobreza e subdesenvolvimento. Embora o trabalho precoce seja correlacionado com essa exclusão e um forte indicador de pobreza, esse não pode ser captado na Pesquisa nacional de saúde. Como indicador de desenvolvimento infantil foram captados, acesso à escola, progresso escolar e mortalidade infantil. A tabela \ref{ind_des_infantil} apresenta os indicadores dessa dimensão. O efeito cascata nos pesos está presente tanto no  $D1-D3$ quanto no $D4-D5$.
+  
+\begin{table}[H]
+	\footnotesize
+	\centering
+	\caption{Indicadores de desenvolvimento infantil}
+	\label{ind_des_infantil}
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{lll}
+		\hline
+		\multirow{3}{*}{Acesso à escola}      & D1. & Presença de ao menos uma criança de 0-6 anos fora da escola             \\
+		& D2. & Presença de ao menos uma criança de 7-14 anos fora da escola            \\
+		& D3. & Presença de ao menos uma criança de 7-17 anos fora da escola            \\
+		&     &                                                                         \\
+		\multirow{2}{*}{Progresso escolar}    & D4. & Presença de ao menos um adolescente de 10 a 14 anos analfabeto          \\
+		& D5. & Presença de ao menos um jovem de 15 a 17 anos analfabeto                \\
+		&     &                                                                         \\
+		\multirow{2}{*}{Mortalidade infantil} & D6. & Presença de ao menos uma mãe que tenha algum filho que já tenha morrido \\
+		& D7. & Presença de mãe que já teve algum filho nascido morto                   \\ \hline
+	\end{tabular}
+}
+\end{table}
+
+\subsection{Condições habitacionais}
+  As condições habitacionais têm interseção com saúde, bem-estar e desigualdade de renda no Brasil.  \citeonline{zoghbi2007analise} demonstram que quando há um aumento de vulnerabilidade em termos habitacionais há também uma piora na autoavaliação de saúde dos indivíduos. É razoável supor que as vulnerabilidades objetivadas nas habitações não são escolhas, mas imposições por algum tipo de restrição que as impossibilite de prover melhoras. 
+  
+  Na PNS foi possível investigar a densidade de indivíduos por dormitórios, materiais inadequados da construção, acesso inadequado a água, disponibilidade de energia, bens duráveis e destino não adequado de lixo. Como acesso inadequado a água, entendeu-se a água advinda de de carro-pipa, armazenamentos em cisterna ou por rios, lagos e igarapés. O esgotamento sanitário inadequado são as fossas rudimentares, valas ou direto para rios, lagos ou mar. A tabela \ref{ind_habitacional} apresenta dos indicadores.
+  
+  
+  \begin{table}[H]
+  	\footnotesize
+  	\centering
+  	\caption{Indicadores de condições habitacionais}
+  	\label{ind_habitacional}
+  	\begin{tabular}{llp{9cm}}
+  		\hline
+  		Déficit habitacional                       & E1.  & Densidade de 2 ou mais moradores por dormitório                                                        \\
+  		&      &                                                                                                        \\
+  		Abrigabilidade                             & E2.  & Material de construção não é permanente                                                                \\
+  		&      &                                                                                                        \\
+  		Acesso a abastecimento de água             & E3.  & Acesso inadequado a água                                                                               \\
+  		&      &                                                                                                        \\
+  		Acesso a saneamento                        & E4.  & Esgotamento sanitário inadequado                                                                       \\
+  		&      &                                                                                                        \\
+  		Acesso a coleta de lixo                    & E5.  & Lixo não é coletado                                                                                    \\
+  		&      &                                                                                                        \\
+  		\multirow{5}{*}{Acesso a energia elétrica} & E6.  & Sem acesso a eletricidade                                                                              \\
+  		& E7.  & Não tem ao menos a um dos itens: fogão ou geladeira                                                    \\
+  		& E8.  & Não tem ao menos a um dos itens: fogão, geladeira, televisão                                           \\
+  		& E9.  & Não tem ao menos a um dos itens: fogão, geladeira, televisão, telefone (fixo ou celular)               \\
+  		& E10. & Não tem ao menos a um dos itens: fogão, geladeira, televisão, telefone (fixo ou celular) ou computador \\ \hline
+  	\end{tabular}
+  \end{table}
+
+\subsection{Saúde}
+A única dimensão não contida no método proposto por \citeonline{barros2006pobreza} é a de saúde por limitação da base de dados usada. Estudos de desigualdade social na saúde foram usados para definir os indicadores que comporiam essa dimensão. Nessa área, as variáveis de presença de doenças crônicas e auto avaliação do estado de saúde se mostram relevantes, em específico a autoavaliação de saúde é uma boa \textit{proxy} do real estado de saúde dos indivíduos \cite{humphries2000income,diaz2003desigualdades}. Além desses dois indicadores, a ausência de indivíduos na família com plano de saúde também foi incluída como \textit{proxy} de seguro saúde, como sugerido por \citeonline{neri2002desigualdade}.
+
+\begin{table}[H]
+	\footnotesize
+	\centering
+	\caption{Indicadores de saúde}
+	\label{ind_saude}
+	\begin{tabular}{p{3.3cm}ll}
+		\hline
+		Seguro saúde                     & F1. & Ausência de moradores com plano de saúde                               \\
+		&     &                                                                        \\
+		\multirow{2}{*}{Estado de saúde} & F2. & Presença de ao menos um morador com doença crônica ou de longa duração \\
+		& F3. & Presença de adulto que classifica sua saúde como ruim ou muito ruim   \\ \hline
+	\end{tabular}
+\end{table}
+ 
+ \subsection{Agregação dos indicadores e dimensões}
+ 
+ A agregação dos indicadores foi feita de modo que primeiro temos um indicador sintético familiar de pobreza e depois podemos obter os indicadores para qualquer grupo. Assim, temos que:
+ 
+ \begin{equation}
+ S_\alpha = (\sum_{k=1}^{m} w_k B^{\alpha}_k)^{1/\alpha}
+ \end{equation}
+ 
+ onde $S$ é o indicador agregado de pobreza familiar, $\{B_k: k=1,...,m\}$ é o conjunto de indicadores a serem agregados e $w_k$ é o peso dado ao indicador elementar. Como dito anteriormente, a definição dos pesos seguiu a forma mais usada na literatura, onde são tratados de forma simétrica por falta de informação das preferências sociais. O cálculo do indicador sintético de pobreza para cada família torna-se então:
+ 
+ \begin{equation}
+ 	S=\frac{1}{6} \sum_{k=1}^{6} \bigg( \frac{1}{m_k}\sum_{j=1}^{m_k} \bigg( \frac{1}{n_{jk}} \sum_{i=1}^{n_{jk}} B_{ijk} \bigg) \bigg)
+ \end{equation}
+
+Ou seja, primeiro foi calculado o indicador sintético de cada componente para as seis dimensões, sendo $ B_{ijk} $ o $i$-ésimo indicador do $j$-ésimo componente da $k$-ésima dimensão e $ n_{jk} $ o número de indicadores do $j$-ésimo componente da $k$-ésima dimensão; depois calculado o indicador de cada dimensão, sendo $m_k$ o número componentes de  $k$-ésima dimensão e por fim calculou-se o indicador geral familiar que é a média aritmética das dimensões. 
+
+Após isso, por se aditivamente decomponível, podemos calcular o indicador geral agregando as famílias por grupos, então:
+
+\begin{equation}
+	G=\frac{1}{F_g} \sum_{i=1}^{F_g} S({f_g}_i)
+\end{equation}
+
+Onde $ G $ é a pobreza do grupo que se quer, $ F_g $ é o total de famílias nesse grupo, $ \{{f_g}_i: i=1,...,F_g \} $ é o conjunto de famílias dentro do grupo e $ S({f_g}_i) $ é o indicador geral de pobreza calculado para cada família do grupo de interesse. 
 % ---
 
 % ---
@@ -505,11 +680,10 @@ O Benefício de Prestação Continuada é a garantia de um salário mínimo mens
 \section{Análise Descritiva}
 Em 2013 no Brasil, segundo a Pesquisa Nacional de Saúde (PNS), havia 17,9 milhões de pessoas com 65 anos ou mais (8,9\%) e 14,7 milhões de pessoas que diziam ter alguma deficiência intelectual, visual, física ou auditiva (7,3\%) com qualquer grau de limitação advinda dessas deficiências. A distribuição percentual destas populações por condição no domicílio, é apresentada na tabela \ref*{tab_prop_byc004}.
 
-A categoria de pessoa responsável pelo domicílio agregam a maioria das pessoas, no entanto há uma diferença entre idosos e deficientes. Os idosos estão concentrados majoritariamente em três categorias: pessoa responsável pelo domicílio, cônjuge ou companheiro e pai, mãe, padrasto ou madrasta; 61\%, 22\% e 10\%, respectivamente. As pessoas com deficiência estão em mais categorias, concentrando-se, como mais de 90\%, em 4 categorias: responsável pelo domicílio, cônjuge, filhos e pai, pai, mãe, padrasto ou madrasta; 46\%, 22\%, 10,5\% e 4\%, respectivamente.
+A categoria de pessoa responsável pelo domicílio agrega a maioria das pessoas, no entanto há uma diferença entre idosos e deficientes. Os idosos estão concentrados majoritariamente em três categorias: pessoa responsável pelo domicílio, cônjuge ou companheiro e pai, mãe, padrasto ou madrasta; 61\%, 22\% e 10\%, respectivamente. As pessoas com deficiência estão em mais categorias, concentrando-se, como mais de 90\%, em 4 categorias: responsável pelo domicílio, cônjuge, filhos e pai, pai, mãe, padrasto ou madrasta; 46\%, 22\%, 10,5\% e 4\%, respectivamente.
 
-\begin{table}[h]
+\begin{table}[H]
 	\footnotesize
-	\centering
 	\caption{Brasil -- Distribuição percentual da população de 65 anos ou mais e pessoas com alguma deficiência, segundo a condição no domicílio, 2013}
 	\label{tab_prop_byc004}
 	\begin{tabular}{@{}lm{4cm}m{3cm}@{}}
@@ -535,14 +709,15 @@ A categoria de pessoa responsável pelo domicílio agregam a maioria das pessoas
 		Empregado(a) doméstico(a)                              & 0,03                            & 0,02            \\ \midrule
 		\textbf{Total}                                         & \textbf{100,00}                 & \textbf{100,00} \\ \bottomrule
 	\end{tabular}
+		\legend{\footnotesize Fonte: Elaboração própria a partir da PNS 2013}
 \end{table}
 
-Quando selecionada as pessoas preeleitas ao recebimento do benefício, ou seja, aqueles que respeitaram todas as regras de elegibilidade do BPC, exceto de renda, foi encontrado um total de 4,2 milhões de pessoas. Desse total, 2,4 milhões foram classificados como espécie BPC idoso e 1,8 milhões de BPC deficiente, 58\% e 41\%, respectivamente. A distribuição percentual destas populações, por condição no domicílio e espécie do benefício, é apresentada na tabela \ref*{tab_prop_byc004_preeleito}
+Quando selecionada as pessoas preeleitas ao recebimento do benefício, ou seja, aqueles que respeitaram todas as regras de elegibilidade do BPC, exceto de renda, foi encontrado um total de 4,2 milhões de pessoas. Desse total, 2,4 milhões foram classificados como espécie BPC idoso e 1,8 milhões de BPC deficiente, 57\% e 43\%, respectivamente. A distribuição percentual destas populações, por condição no domicílio e espécie do benefício, é apresentada na tabela \ref*{tab_prop_byc004_preeleito}
 
 
 Quase 90\% do total de preeleitos estão na condições de responsável pelo domicílio, cônjuge, filhos ou pai, mãe, padrasto ou madrasta. Esse dado é relevante: essas posições são as que apresentam maior nível de acurácia na determinação do grupamento familiar BPC do beneficiário. A posição de menor nível de garantia de identificação do grupamento familiar estão em "outros" e representam  menos de 3\% do total. Subdividindo-se por espécie do benefício (se destinada à pessoa com deficiência ou ao idoso), a categoria de idoso apresenta ainda melhor situação para a reclassificação: mais de 90\% estão em três categorias e menos de 2\% estao em ``outro''. A despeito de as pessoas com deficiência estarem em mais categorias, ainda predominam-se, com 85\%, nas categorias de melhor nível de classificação: responsável pelo domicílio, cônjuge e filhos.
  
-\begin{table}[h]
+\begin{table}[H]
 	\footnotesize
 	\centering
 	\caption{Brasil -- Distribuição percentual da população preeleita segundo a condição no domicílio e espécie do benefício, 2013}
@@ -567,9 +742,9 @@ Quase 90\% do total de preeleitos estão na condições de responsável pelo dom
 	\end{tabular}
 \end{table}
 
-A soma total de indivíduos passiveis de serem reclassificados como grupo familiar do BPC é de 6,4 milhões. A taxa de reclassificação total foi de 98,5\%. Quando subdividido por espécie do benefício, as famílias com o beneficiário idoso atingiu 99,4\% de reclassificação e as pessoas com alguma deficiência com restrição moderada tiveram 96,2\%. A menor taxa de sucesso nas reclassificações para beneficio ao deficiente era esperado, dada a mair ocorrencia de beneficiários em posições de menor acurácia na reconstrução de seus laços familiares e por consequência, maior ocorrência de ambiguidades. A tabela \ref*{tab_per_reclas} apresenta o resultado. 
+A soma total de indivíduos passíveis de serem reclassificados como grupo familiar do BPC é de 6,4 milhões. A taxa de reclassificação total foi de 98,5\%. Quando subdividido por espécie do benefício, as famílias com o beneficiário idoso atingiu 99,4\% de reclassificação e as pessoas com alguma deficiência com restrição moderada tiveram 96,2\%. A menor taxa de sucesso nas reclassificações para benefício ao deficiente era esperado, dada a maior ocorrência de beneficiários em posições de menor acurácia na reconstrução de seus laços familiares e, por consequência, maior ocorrência de ambiguidades. A tabela \ref*{tab_per_reclas} apresenta o resultado. 
 
-\begin{table}[h]
+\begin{table}[H]
 	\footnotesize
 	\centering
 	\caption{Brasil -- Percentual de reclassificações por tipo, 2013}
@@ -578,16 +753,18 @@ A soma total de indivíduos passiveis de serem reclassificados como grupo famili
 		\toprule
 		\textbf{Situação da reclassificação}     & \textbf{Pessoa com Deficiência} & \textbf{Idoso} & \textbf{Total} \\ \midrule
 		Reclassificado                           & 96,22                  & 99,44 & 98,55 \\                 
-		\multicolumn{1}{r}{Compoe a família}     & 91,11                  & 95,45 & 94,17 \\               
-		\multicolumn{1}{r}{Não compoe a família} & 5,11                   & 4,00  & 4,38  \\               
-		Ambíguo                                  & 3,78                   & 0,56  & 1,45  \\ \midrule
-		Total                                    & 100                    & 100   & 100   \\ \bottomrule
+		Não reclassificado                       & 3,78                   & 0,56  & 1,45  \\ \midrule
+		Total                                    & 100                    & 100   & 100   \\ \midrule
+		\multicolumn{4}{c}{Reclassificado} \\ \midrule
+		\multicolumn{1}{r}{Entra na família}     & 91,11                  & 95,45 & 94,17 \\               
+		\multicolumn{1}{r}{Não entra na família} & 5,11                   & 4,00  & 4,38  \\ \midrule  
+		Total                                    & 100                    & 100   & 100   \\ \bottomrule    
 	\end{tabular}
 \end{table}
 
-Quando excluídas as pessoas que não entram na família BPC e os indivíduos com reclassificação ambígua,a média de pessoas por família é de 1,7 pessoas, similar ao encontrado na estatística oficial do programa CITAR DOCUMENTO DE COMPROVAçãoo--------. O próprio beneficiário representa 65\% do total seguido de cônjuge com 18\%. Para o benefício destinado à pessoas com deficiência, essa estatística se modifica, sendo majoritariamente formada pelo próprio beneficiário e seus filhos. A distribuição da população reclassificada de acordo com a classificação do grupo familiar BPC está na tabela \ref*{tab_reclass_cond}.
+Excluídas as pessoas que não entram na família BPC e os indivíduos com reclassificação ambígua, a média de pessoas por família é de 1,7 pessoas. O próprio beneficiário representa 65\% do total seguido de cônjuge com 18\%. Para o benefício destinado à pessoas com deficiência, essa estatística se modifica, sendo majoritariamente formada pelo próprio beneficiário e seus filhos. A distribuição da população reclassificada de acordo com a classificação do grupo familiar BPC está na tabela \ref*{tab_reclass_cond}.
 
-\begin{table}[h]
+\begin{table}[H]
 	\footnotesize
 	\centering
 	\caption{Brasil -- Distribuição percentual da população reclassificada por condição da família BPC, 2013}
@@ -607,11 +784,93 @@ Quando excluídas as pessoas que não entram na família BPC e os indivíduos co
 	\end{tabular}
 \end{table}
 
+Como mostra a tabela \ref{tab_eleitos_renda}, 72,9\% dos preeleitos se enquadram na regra de até 1/4 de salário mínimo \textit{per capita} e apenas 6,6\% estão em até 1/2. Proporcionalmente, as pessoas com deficiência se adequaram menos a regra vigente de inclusão no BPC. Um motivo possível pode ser a forma diferenciada do cálculo para essas pessoas, as quais podem ter incluídos o BPC de outro membro na família no cálculo de sua renda de debilidade. 
+
+\begin{table}[H]
+	\footnotesize
+	\centering
+	\caption{Proporção de preeleitos por estrato de renda per capita}
+	\label{tab_eleitos_renda}
+	\begin{tabular}{@{}p{11cm}lll@{}}
+		\toprule
+		\textbf{Renda per capita} & \textbf{Total} & \textbf{Idoso} & \textbf{Deficiência} \\ \midrule
+		Menor que 1/4    & 72,9  & 68,5  & 79,5        \\
+		Entre 1/4 e 1/2  & 6,6   & 5,0   & 9,0         \\
+		Maior que 1/2    & 20,6  & 26,6  & 11,5        \\ \midrule
+		Total            & 100   & 100   & 100         \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+As famílias que se enquadram na atual regra de 1/4 de renda \textit{per capita} têm predominantemente renda zero, 45\% e 49\%  para pessoas com deficiência e idosos, respectivamente. Em relação as famílias que estão no estrato de renda maior do que a regra atual, mais de 30\% estão no limite de 1/2 do salário mínimo. A figura \ref{rend_resumo_figura} mostra a proporção de familiar por renda \textit{per capita}.
+
+\begin{center}
+	\includegraphics[]{distrbuicao_percapita.png}
+	\begin{figure}[!h]
+		\caption{Proporção de famílias por renda per capita }
+		\label{rend_resumo_figura}
+	\end{figure}
+\end{center}
+
+\section{Pobreza em grupos de estrato de renda per capita do BPC}
+
+Uma análise individual dos indicadores de cada componente das seis dimensões não demonstra uma pior situação geral para nenhum dos estrados de rendas de interesse: há uma alternância de maior vulnerabilidade por grupos para cada indicador.  As questões mais relevantes para ambos grupos, que indicam vulnerabilidade,  são a ausência de cônjuge, baixa proporção de indivíduos em idade ativa,  baixo acesso ao conhecimento, má situação no acesso ao trabalho, não possuir computador, falta de planos de saúde e existência de membros com doenças crônicas. A baixa vulnerabilidade nos indicadores de desenvolvimento infantil, se deve a baixa ocorrência de crianças no domicílio.  A figura \ref{ind_resumo_figura} apresenta as proporções de famílias com vulnerabilidades nos indicadores apresentados, esses estão ordenador por dimensões. 
+
+\begin{landscape}
+\begin{center}
+	\includegraphics[width= 23cm, height=14.5cm ]{resumo_indicadores.png}
+	\begin{figure}[!h]
+		\caption{Proporção de famílias com vulnerabilidades nos indicadores de pobreza}
+		\label{ind_resumo_figura}
+	\end{figure}
+\end{center}
+\end{landscape}
+
+Como mostra a tabela \ref{tab_graupobreza}, o grau de pobreza entre os estratos de renda \textit{per capita} são idênticos, ambos têm 40\% de pobreza. No entanto, há dimensões em que o um grupo pode ser considerado mais pobre e outro em que inverte-se a pobreza entre os grupos, embora essa diferença não ultrapasse os 7 ponto, exceto no caso de acesso ao trabalho, em que o estrato de renda \textit{per capita} abaixo de 1/4 tem uma condição de 15 ponto pior do que o outro estrato. 
+ 
+ Mesmo considerando separadamente benefícios ao idoso e ao deficiente e por estrato de renda, a diferença entre o indicador geral não é tão relevante, variando em no máximo dois pontos. A maior diferença encontrada está entre os deficientes, sendo que os com renda maior que um quarto do salário mínimo estão em situação um pouco melhor do que os com renda menor que um quarto. Comparando todas as dimensões aferidas da pobreza, os dois grupos continuam similares, havendo alternância do estrato em pior situação nas dimensões. 
+
+\begin{table}[H]
+	\footnotesize
+	\centering
+	\caption{Grau multidimensional de pobreza -- estrato de renda per capita}
+	\label{tab_graupobreza}
+	\begin{tabular}{@{}m{5cm}lllllll@{}}
+		\toprule
+		\multirow{2}{*}{Dimensão} & \multirow{2}{*}{Total} & \multicolumn{2}{c}{Total}                                            & \multicolumn{2}{c}{Idoso}                                            & \multicolumn{2}{c}{Deficiente}                                       \\ \cmidrule(l){3-8} 
+		&                        & Até 1/4 & \begin{tabular}[c]{@{}l@{}}Entre 1/4\\  e 1/2\end{tabular} & Até 1/4 & \begin{tabular}[c]{@{}l@{}}Entre 1/4\\  e 1/2\end{tabular} & Até 1/4 & \begin{tabular}[c]{@{}l@{}}Entre 1/4 \\ e 1/2\end{tabular} \\ \midrule
+		Indicador Geral           & 40,3                   & 40,3    & 40,2                                                       & 40,7    & 42,5                                          & 39,8    & 37,8                                                       \\
+		Vulnerabilidade           & 23,9                   & 24,2    & 19,1                                                       & 24,8    & 22,7                                          & 23,5    & 15,3                                                       \\
+		Acesso ao conhecimento    & 53,5                   & 53,1    & 59,6                                                       & 60,9    & 68,5                                          & 44,3    & 50,4                                                       \\
+		Acesso ao trabalho        & 98,1                   & 99,1    & 84,0                                                       & 98,9    & 88,3                                          & 99,4    & 79,6                                                       \\
+		Desenvolvimento infantil  & 1,4                    & 1,3     & 2,0                                                        & 0,0     & 0,1                                           & 2,7     & 4,0                                                        \\
+		Condições habitacionais   & 12,0                   & 11,5    & 18,6                                                       & 10,0    & 17,2                                          & 13,3    & 20,0                                                       \\
+		Saúde                     & 52,8                   & 52,4    & 57,9                                                       & 49,4    & 58,2                                          & 55,8    & 57,5                                                       \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+Como os indicadores por grupos são médios, poderia haver uma diferença quanto ao total da população acumulada em níveis de pobreza. No entanto, mesmo essa comparação demostra uma similaridade entre estratos e espécie do benefício: 50\% das famílias mais pobres têm índices de pobreza em torno de 40\%, como mostra a figura \ref{ind_ac_figura}.
+
+\begin{center}
+	\includegraphics[scale=0.93]{prop_ac_indicegeral_especie.png}
+	\begin{figure}[!h]
+		\caption{Distribuiçã acumulada das famílias de acordo com o indicador de pobreza familiar}
+		\label{ind_ac_figura}
+	\end{figure}
+\end{center}
 
 % ---
 % Conclusão
 % ---
 \chapter{Conclusão}
+
+Em 2013 o Supremo Tribunal Federal (STF) julgou que, para o deferimento do
+Benefício de prestação continuada, podem ser consideradas outros indicadores de miserabilidade além das regras existentes. Os demais critérios que comprovem a situação de miserabilidade do grupo familiar e da situação de vulnerabilidade carecem de regulamento e estão omitidos na Lei Orgânica de Assistência Social. Na pratica, o judiciário tem deferido o pedido do benefício para rendas \textit{per capita} de até meio salário mínimo. Dessa forma, o critério de pobreza para a concessão do benefício se tornou subjetivo, ficando à mercê da análise individual do judiciário.
+
+O objetivo desse trabalho foi verificar se a pobreza entre os elegíveis ao BPC pela regra da LOAS e a adotada pelo judiciário são similares ou divergentes. Para isso, foi calculado um índice de pobreza multidimensional que levou em considerações dimensões comumente utilizadas nos estudos sobre o tema e comparado os dois estratos. 
+
+Os resultados demostram que a pobreza medida pelo índice multidimensional dos dois grupos analisados não são diferentes. Além do mais, em algumas dimensões da pobreza, o estrato de renda superior a 1/4 está em pior situação do que o grupo naturalmente eleito no BPC. Se forem consideradas apenas o grau de miserabilidade, o resultados corroboram o entendimento do Supremo Tribunal Federal de que talvez os indivíduos com renda entre 1/4 e 1/2 devam ser incluídos no programa por entenderem que a pobreza entre eles não é tão diferente, mesmo com o dobro de renda por membro familiar. Outro ponto a ser destacado nos resultados é a também similaridade de pobreza entre grupos familiares de idosos e pessoas com deficiência. Atualmente, as regras do BPC tratam o cálculo da renda \textit{per capita} dos dois grupos de forma desigual, beneficiando os idosos ao nao inserir no calculo da renda familiar o rendimento de outro beneficiário idoso no mesmo domicílio. 
+
+
 % ---
 
 
@@ -641,377 +900,377 @@ Quando excluídas as pessoas que não entram na família BPC e os indivíduos co
 	\footnotesize
 	\begin{longtable}{@{}lcclc@{}}
 			\toprule
-			Condição do pré eleito ao BPC        & Pré elegivel & Solteiro & Condição no domicílio                & Vinculo familiar BPC \\ \midrule
+			Condição do preeleito no domicilio        & Preeleito & Solteiro & Condição no domicílio (todos)                & Reclassificação \\ \midrule
 			\endfirsthead
 			\multicolumn{5}{c}%
 			{\tablename\ \thetable\ -- \textit{Continuação da tabela}} \\
 			\toprule
-			Condição do pré eleito ao BPC        & Pré elegivel & Solteiro & Condição no domicílio                & Vinculo familiar BPC \\ \midrule
+		Condição do preeleito no domicilio        & Preeleito & Solteiro & Condição no domicílio (todos)                 & Reclassificação \\ \midrule
 			\endhead
 			\hline \multicolumn{5}{r}{\textit{Continua na próxima página}} \\
 			\endfoot
 			\hline
 			\endlastfoot
-				Pessoa responsável pelo domicílio & 1 & 1 & Pessoa responsável pelo domicílio & O PROPRIO \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Conjuge & ERRO \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Filho(a) do responsável e do cônjuge & FILHO \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Filho(a) somente do responsável & FILHO \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Enteado(a) & ENTEADO \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Genro ou nora & ERRO \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Pai, mãe, padrasto ou madrasta & PAI/MÃE \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Neto(a) & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Irmão ou irmã & IRMAO/IRMA \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 1 & Outros & NÃO ENTRA \\
-				Conjuge & 0 & 1 & Pessoa responsável pelo domicílio & ERRO \\
-				Conjuge & 1 & 1 & Conjuge & ERRO \\
-				Conjuge & 0 & 1 & Filho(a) do responsável e do cônjuge & FILHO \\
-				Conjuge & 0 & 1 & Filho(a) somente do responsável & ENTEADO \\
-				Conjuge & 0 & 1 & Enteado(a) & AMBIGUO \\
-				Conjuge & 0 & 1 & Genro ou nora & ERRO \\
-				Conjuge & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Conjuge & 0 & 1 & Sogro(a) & PAI/MÃE \\
-				Conjuge & 0 & 1 & Neto(a) & NÃO ENTRA \\
-				Conjuge & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Conjuge & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Conjuge & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Conjuge & 0 & 1 & Outros & AMBIGUO \\
-				Filho(a) do responsável e do cônjuge & 1 & 1 & Filho(a) do responsável e do cônjuge & O PROPRIO \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Pessoa responsável pelo domicílio & PAI/MÃE \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Conjuge & PAI/MÃE \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Filho(a) do responsável e do cônjuge & IRMAO/IRMA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Filho(a) somente do responsável & IRMAO/IRMA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Enteado(a) & IRMAO/IRMA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Genro ou nora & ERRO \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Neto(a) & AMBIGUO \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 1 & Outros & AMBIGUO \\
-				Filho(a) somente do responsável & 1 & 1 & Filho(a) somente do responsável & O PROPRIO \\
-				Filho(a) somente do responsável & 0 & 1 & Pessoa responsável pelo domicílio & PAI/MÃE \\
-				Filho(a) somente do responsável & 0 & 1 & Conjuge & PAI/MÃE \\
-				Filho(a) somente do responsável & 0 & 1 & Filho(a) do responsável e do cônjuge & IRMAO/IRMA \\
-				Filho(a) somente do responsável & 0 & 1 & Filho(a) somente do responsável & IRMAO/IRMA \\
-				Filho(a) somente do responsável & 0 & 1 & Enteado(a) & IRMAO/IRMA \\
-				Filho(a) somente do responsável & 0 & 1 & Genro ou nora & ERRO \\
-				Filho(a) somente do responsável & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 1 & Neto(a) & AMBIGUO \\
-				Filho(a) somente do responsável & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 1 & Outros & AMBIGUO \\
-				Enteado(a) & 1 & 1 & Enteado(a) & O PROPRIO \\
-				Enteado(a) & 0 & 1 & Pessoa responsável pelo domicílio & PAI/MÃE \\
-				Enteado(a) & 0 & 1 & Conjuge & ERRO \\
-				Enteado(a) & 0 & 1 & Filho(a) do responsável e do cônjuge & IRMAO/IRMA \\
-				Enteado(a) & 0 & 1 & Filho(a) somente do responsável & IRMAO/IRMA \\
-				Enteado(a) & 0 & 1 & Enteado(a) & AMBIGUO \\
-				Enteado(a) & 0 & 1 & Genro ou nora & ERRO \\
-				Enteado(a) & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Enteado(a) & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Enteado(a) & 0 & 1 & Neto(a) & AMBIGUO \\
-				Enteado(a) & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Enteado(a) & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Enteado(a) & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Enteado(a) & 0 & 1 & Outros & AMBIGUO \\
-				Genro ou nora & 1 & 1 & Genro ou nora & ERRO \\
-				Genro ou nora & 0 & 1 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Genro ou nora & 0 & 1 & Conjuge & ERRO \\
-				Genro ou nora & 0 & 1 & Filho(a) do responsável e do cônjuge & AMBIGUO \\
-				Genro ou nora & 0 & 1 & Filho(a) somente do responsável & AMBIGUO \\
-				Genro ou nora & 0 & 1 & Enteado(a) & AMBIGUO \\
-				Genro ou nora & 0 & 1 & Genro ou nora & ERRO \\
-				Genro ou nora & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Genro ou nora & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Genro ou nora & 0 & 1 & Neto(a) & AMBIGUO \\
-				Genro ou nora & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Genro ou nora & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Genro ou nora & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Genro ou nora & 0 & 1 & Outros & AMBIGUO \\
-				Pai, mãe, padrasto ou madrasta & 1 & 1 & Pai, mãe, padrasto ou madrasta & O PROPRIO \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Pessoa responsável pelo domicílio & FILHO \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Conjuge & ERRO \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Enteado(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Genro ou nora & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Neto(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Avô ou avó & PAI/MÃE \\
-				Pai, mãe, padrasto ou madrasta & 0 & 1 & Outros & AMBIGUO \\
-				Sogro(a) & 1 & 1 & Sogro(a) & O PROPRIO \\
-				Sogro(a) & 0 & 1 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Conjuge & ERRO \\
-				Sogro(a) & 0 & 1 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Enteado(a) & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Genro ou nora & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Neto(a) & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Sogro(a) & 0 & 1 & Outros & AMBIGUO \\
-				Neto(a) & 1 & 1 & Neto(a) & O PROPRIO \\
-				Neto(a) & 0 & 1 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Neto(a) & 0 & 1 & Conjuge & ERRO \\
-				Neto(a) & 0 & 1 & Filho(a) do responsável e do cônjuge & AMBIGUO \\
-				Neto(a) & 0 & 1 & Filho(a) somente do responsável & AMBIGUO \\
-				Neto(a) & 0 & 1 & Enteado(a) & AMBIGUO \\
-				Neto(a) & 0 & 1 & Genro ou nora & ERRO \\
-				Neto(a) & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Neto(a) & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Neto(a) & 0 & 1 & Neto(a) & AMBIGUO \\
-				Neto(a) & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Neto(a) & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Neto(a) & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Neto(a) & 0 & 1 & Outros & AMBIGUO \\
-				Bisneto(a) & 1 & 1 & Bisneto(a) & O PROPRIO \\
-				Bisneto(a) & 0 & 1 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Conjuge & ERRO \\
-				Bisneto(a) & 0 & 1 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Enteado(a) & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Genro ou nora & ERRO \\
-				Bisneto(a) & 0 & 1 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Neto(a) & AMBIGUO \\
-				Bisneto(a) & 0 & 1 & Bisneto(a) & AMBIGUO \\
-				Bisneto(a) & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Bisneto(a) & 0 & 1 & Outros & AMBIGUO \\
-				Irmão ou irmã & 1 & 1 & Irmão ou irmã & O PROPRIO \\
-				Irmão ou irmã & 0 & 1 & Pessoa responsável pelo domicílio & IRMAO/IRMA \\
-				Irmão ou irmã & 0 & 1 & Conjuge & ERRO \\
-				Irmão ou irmã & 0 & 1 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 1 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 1 & Enteado(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 1 & Genro ou nora & ERRO \\
-				Irmão ou irmã & 0 & 1 & Pai, mãe, padrasto ou madrasta & PAI/MÃE \\
-				Irmão ou irmã & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 1 & Neto(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 1 & Irmão ou irmã & IRMAO/IRMA \\
-				Irmão ou irmã & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 1 & Outros & AMBIGUO \\
-				Avô ou avó & 1 & 1 & Avô ou avó & O PROPRIO \\
-				Avô ou avó & 0 & 1 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Conjuge & ERRO \\
-				Avô ou avó & 0 & 1 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Enteado(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Genro ou nora & ERRO \\
-				Avô ou avó & 0 & 1 & Pai, mãe, padrasto ou madrasta & AMBIGUO \\
-				Avô ou avó & 0 & 1 & Sogro(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Neto(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Bisneto(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Irmão ou irmã & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Avô ou avó & NÃO ENTRA \\
-				Avô ou avó & 0 & 1 & Outros & AMBIGUO \\
-				Outros & 1 & 1 & Outros & O PROPRIO \\
-				Outros & 0 & 1 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Outros & 0 & 1 & Conjuge & ERRO \\
-				Outros & 0 & 1 & Filho(a) do responsável e do cônjuge & AMBIGUO \\
-				Outros & 0 & 1 & Filho(a) somente do responsável & AMBIGUO \\
-				Outros & 0 & 1 & Enteado(a) & AMBIGUO \\
-				Outros & 0 & 1 & Genro ou nora & ERRO \\
-				Outros & 0 & 1 & Pai, mãe, padrasto ou madrasta & AMBIGUO \\
-				Outros & 0 & 1 & Sogro(a) & AMBIGUO \\
-				Outros & 0 & 1 & Neto(a) & AMBIGUO \\
-				Outros & 0 & 1 & Bisneto(a) & AMBIGUO \\
-				Outros & 0 & 1 & Irmão ou irmã & AMBIGUO \\
-				Outros & 0 & 1 & Avô ou avó & AMBIGUO \\
-				Outros & 0 & 1 & Outros & AMBIGUO \\
-				Pessoa responsável pelo domicílio & 1 & 0 & Pessoa responsável pelo domicílio & O PROPRIO \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Conjuge & CONJUGE \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Pai, mãe, padrasto ou madrasta & PAI/MÃE \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Pessoa responsável pelo domicílio & 0 & 0 & Outros & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Pessoa responsável pelo domicílio & CONJUGE \\
-				Conjuge & 1 & 0 & Conjuge & O PROPRIO \\
-				Conjuge & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Sogro(a) & PAI/MÃE \\
-				Conjuge & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Conjuge & 0 & 0 & Outros & AMBIGUO \\
-				Filho(a) do responsável e do cônjuge & 1 & 0 & Filho(a) do responsável e do cônjuge & O PROPRIO \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Pessoa responsável pelo domicílio & PAI/MÃE \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Conjuge & PAI/MÃE \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Genro ou nora & AMBIGUO \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Filho(a) do responsável e do cônjuge & 0 & 0 & Outros & AMBIGUO \\
-				Filho(a) somente do responsável & 1 & 0 & Filho(a) somente do responsável & O PROPRIO \\
-				Filho(a) somente do responsável & 0 & 0 & Pessoa responsável pelo domicílio & PAI/MÃE \\
-				Filho(a) somente do responsável & 0 & 0 & Conjuge & PAI/MÃE \\
-				Filho(a) somente do responsável & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Genro ou nora & AMBIGUO \\
-				Filho(a) somente do responsável & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Filho(a) somente do responsável & 0 & 0 & Outros & AMBIGUO \\
-				Enteado(a) & 1 & 0 & Enteado(a) & O PROPRIO \\
-				Enteado(a) & 0 & 0 & Pessoa responsável pelo domicílio & PAI/MÃE \\
-				Enteado(a) & 0 & 0 & Conjuge & AMBIGUO \\
-				Enteado(a) & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Enteado(a) & 0 & 0 & Outros & AMBIGUO \\
-				Genro ou nora & 1 & 0 & Genro ou nora & O PROPRIO \\
-				Genro ou nora & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Conjuge & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Filho(a) do responsável e do cônjuge & AMBIGUO \\
-				Genro ou nora & 0 & 0 & Filho(a) somente do responsável & AMBIGUO \\
-				Genro ou nora & 0 & 0 & Enteado(a) & AMBIGUO \\
-				Genro ou nora & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Neto(a) & AMBIGUO \\
-				Genro ou nora & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Genro ou nora & 0 & 0 & Outros & AMBIGUO \\
-				Pai, mãe, padrasto ou madrasta & 1 & 0 & Pai, mãe, padrasto ou madrasta & O PROPRIO \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Conjuge & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Pai, mãe, padrasto ou madrasta & CONJUGE \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Avô ou avó & PAI/MÃE \\
-				Pai, mãe, padrasto ou madrasta & 0 & 0 & Outros & AMBIGUO \\
-				Sogro(a) & 1 & 0 & Sogro(a) & O PROPRIO \\
-				Sogro(a) & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Conjuge & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Sogro(a) & CONJUGE \\
-				Sogro(a) & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Sogro(a) & 0 & 0 & Outros & AMBIGUO \\
-				Neto(a) & 1 & 0 & Neto(a) & O PROPRIO \\
-				Neto(a) & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Conjuge & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Filho(a) do responsável e do cônjuge & AMBIGUO \\
-				Neto(a) & 0 & 0 & Filho(a) somente do responsável & AMBIGUO \\
-				Neto(a) & 0 & 0 & Enteado(a) & AMBIGUO \\
-				Neto(a) & 0 & 0 & Genro ou nora & AMBIGUO \\
-				Neto(a) & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Neto(a) & 0 & 0 & Outros & AMBIGUO \\
-				Bisneto(a) & 1 & 0 & Bisneto(a) & O PROPRIO \\
-				Bisneto(a) & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Conjuge & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Pai, mãe, padrasto ou madrasta & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Neto(a) & AMBIGUO \\
-				Bisneto(a) & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Bisneto(a) & 0 & 0 & Outros & AMBIGUO \\
-				Irmão ou irmã & 1 & 0 & Irmão ou irmã & O PROPRIO \\
-				Irmão ou irmã & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Conjuge & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Pai, mãe, padrasto ou madrasta & PAI/MÃE \\
-				Irmão ou irmã & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Avô ou avó & NÃO ENTRA \\
-				Irmão ou irmã & 0 & 0 & Outros & AMBIGUO \\
-				Avô ou avó & 1 & 0 & Avô ou avó & O PROPRIO \\
-				Avô ou avó & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Conjuge & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Filho(a) do responsável e do cônjuge & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Filho(a) somente do responsável & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Enteado(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Genro ou nora & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Pai, mãe, padrasto ou madrasta & AMBIGUO \\
-				Avô ou avó & 0 & 0 & Sogro(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Neto(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Bisneto(a) & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Irmão ou irmã & NÃO ENTRA \\
-				Avô ou avó & 0 & 0 & Avô ou avó & AMBIGUO \\
-				Avô ou avó & 0 & 0 & Outros & AMBIGUO \\
-				Outros & 1 & 0 & Outros & O PROPRIO \\
-				Outros & 0 & 0 & Pessoa responsável pelo domicílio & NÃO ENTRA \\
-				Outros & 0 & 0 & Conjuge & AMBIGUO \\
-				Outros & 0 & 0 & Filho(a) do responsável e do cônjuge & AMBIGUO \\
-				Outros & 0 & 0 & Filho(a) somente do responsável & AMBIGUO \\
-				Outros & 0 & 0 & Enteado(a) & AMBIGUO \\
-				Outros & 0 & 0 & Genro ou nora & AMBIGUO \\
-				Outros & 0 & 0 & Pai, mãe, padrasto ou madrasta & AMBIGUO \\
-				Outros & 0 & 0 & Sogro(a) & AMBIGUO \\
-				Outros & 0 & 0 & Neto(a) & AMBIGUO \\
-				Outros & 0 & 0 & Bisneto(a) & AMBIGUO \\
-				Outros & 0 & 0 & Irmão ou irmã & AMBIGUO \\
-				Outros & 0 & 0 & Avô ou avó & AMBIGUO \\
-				Outros & 0 & 0 & Outros & AMBIGUO \\ \bottomrule
+Pessoa responsável           & 1         & 1        & Pessoa responsável           & O Proprio       \\
+Pessoa responsável           & 0         & 1        & Conjuge                      & Erro            \\
+Pessoa responsável           & 0         & 1        & Filho(a) responsável/cônjuge & Filho           \\
+Pessoa responsável           & 0         & 1        & Filho(a) responsável         & Filho           \\
+Pessoa responsável           & 0         & 1        & Enteado(a)                   & Enteado         \\
+Pessoa responsável           & 0         & 1        & Genro ou nora                & Erro            \\
+Pessoa responsável           & 0         & 1        & Pai, mãe, padrasto/madrasta  & Pai/Mãe         \\
+Pessoa responsável           & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Pessoa responsável           & 0         & 1        & Neto(a)                      & Não Entra       \\
+Pessoa responsável           & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Pessoa responsável           & 0         & 1        & Irmão ou irmã                & Irmao/Irma      \\
+Pessoa responsável           & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Pessoa responsável           & 0         & 1        & Outros                       & Não Entra       \\
+Conjuge                      & 0         & 1        & Pessoa responsável           & Erro            \\
+Conjuge                      & 1         & 1        & Conjuge                      & Erro            \\
+Conjuge                      & 0         & 1        & Filho(a) responsável/cônjuge & Filho           \\
+Conjuge                      & 0         & 1        & Filho(a) responsável         & Enteado         \\
+Conjuge                      & 0         & 1        & Enteado(a)                   & Filho           \\
+Conjuge                      & 0         & 1        & Genro ou nora                & Erro            \\
+Conjuge                      & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Conjuge                      & 0         & 1        & Sogro(a)                     & Pai/Mãe         \\
+Conjuge                      & 0         & 1        & Neto(a)                      & Não Entra       \\
+Conjuge                      & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Conjuge                      & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Conjuge                      & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Conjuge                      & 0         & 1        & Outros                       & Ambiguo         \\
+Filho(a) responsável/cônjuge & 1         & 1        & Filho(a) responsável/cônjuge & O Proprio       \\
+Filho(a) responsável/cônjuge & 0         & 1        & Pessoa responsável           & Pai/Mãe         \\
+Filho(a) responsável/cônjuge & 0         & 1        & Conjuge                      & Pai/Mãe         \\
+Filho(a) responsável/cônjuge & 0         & 1        & Filho(a) responsável/cônjuge & Irmao/Irma      \\
+Filho(a) responsável/cônjuge & 0         & 1        & Filho(a) responsável         & Irmao/Irma      \\
+Filho(a) responsável/cônjuge & 0         & 1        & Enteado(a)                   & Irmao/Irma      \\
+Filho(a) responsável/cônjuge & 0         & 1        & Genro ou nora                & Erro            \\
+Filho(a) responsável/cônjuge & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 1        & Neto(a)                      & Ambiguo         \\
+Filho(a) responsável/cônjuge & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 1        & Outros                       & Ambiguo         \\
+Filho(a) responsável         & 1         & 1        & Filho(a) responsável         & O Proprio       \\
+Filho(a) responsável         & 0         & 1        & Pessoa responsável           & Pai/Mãe         \\
+Filho(a) responsável         & 0         & 1        & Conjuge                      & Pai/Mãe         \\
+Filho(a) responsável         & 0         & 1        & Filho(a) responsável/cônjuge & Irmao/Irma      \\
+Filho(a) responsável         & 0         & 1        & Filho(a) responsável         & Irmao/Irma      \\
+Filho(a) responsável         & 0         & 1        & Enteado(a)                   & Irmao/Irma      \\
+Filho(a) responsável         & 0         & 1        & Genro ou nora                & Erro            \\
+Filho(a) responsável         & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Filho(a) responsável         & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Filho(a) responsável         & 0         & 1        & Neto(a)                      & Ambiguo         \\
+Filho(a) responsável         & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Filho(a) responsável         & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Filho(a) responsável         & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Filho(a) responsável         & 0         & 1        & Outros                       & Ambiguo         \\
+Enteado(a)                   & 1         & 1        & Enteado(a)                   & O Proprio       \\
+Enteado(a)                   & 0         & 1        & Pessoa responsável           & Pai/Mãe         \\
+Enteado(a)                   & 0         & 1        & Conjuge                      & Erro            \\
+Enteado(a)                   & 0         & 1        & Filho(a) responsável/cônjuge & Irmao/Irma      \\
+Enteado(a)                   & 0         & 1        & Filho(a) responsável         & Irmao/Irma      \\
+Enteado(a)                   & 0         & 1        & Enteado(a)                   & Irmao/Irma      \\
+Enteado(a)                   & 0         & 1        & Genro ou nora                & Erro            \\
+Enteado(a)                   & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Enteado(a)                   & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Enteado(a)                   & 0         & 1        & Neto(a)                      & Ambiguo         \\
+Enteado(a)                   & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Enteado(a)                   & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Enteado(a)                   & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Enteado(a)                   & 0         & 1        & Outros                       & Ambiguo         \\
+Genro ou nora                & 1         & 1        & Genro ou nora                & Erro            \\
+Genro ou nora                & 0         & 1        & Pessoa responsável           & Não Entra       \\
+Genro ou nora                & 0         & 1        & Conjuge                      & Erro            \\
+Genro ou nora                & 0         & 1        & Filho(a) responsável/cônjuge & Não Entra       \\
+Genro ou nora                & 0         & 1        & Filho(a) responsável         & Não Entra       \\
+Genro ou nora                & 0         & 1        & Enteado(a)                   & Não Entra       \\
+Genro ou nora                & 0         & 1        & Genro ou nora                & Erro            \\
+Genro ou nora                & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Genro ou nora                & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Genro ou nora                & 0         & 1        & Neto(a)                      & Ambiguo         \\
+Genro ou nora                & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Genro ou nora                & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Genro ou nora                & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Genro ou nora                & 0         & 1        & Outros                       & Ambiguo         \\
+Pai, mãe, padrasto/madrasta  & 1         & 1        & Pai, mãe, padrasto/madrasta  & O Proprio       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Pessoa responsável           & Filho           \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Conjuge                      & Erro            \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Filho(a) responsável/cônjuge & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Filho(a) responsável         & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Enteado(a)                   & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Genro ou nora                & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Neto(a)                      & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Irmão ou irmã                & Filho           \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Avô ou avó                   & Pai/Mãe         \\
+Pai, mãe, padrasto/madrasta  & 0         & 1        & Outros                       & Ambiguo         \\
+Sogro(a)                     & 1         & 1        & Sogro(a)                     & O Proprio       \\
+Sogro(a)                     & 0         & 1        & Pessoa responsável           & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Conjuge                      & Erro            \\
+Sogro(a)                     & 0         & 1        & Filho(a) responsável/cônjuge & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Filho(a) responsável         & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Enteado(a)                   & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Genro ou nora                & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Neto(a)                      & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Sogro(a)                     & 0         & 1        & Outros                       & Ambiguo         \\
+Neto(a)                      & 1         & 1        & Neto(a)                      & O Proprio       \\
+Neto(a)                      & 0         & 1        & Pessoa responsável           & Não Entra       \\
+Neto(a)                      & 0         & 1        & Conjuge                      & Erro            \\
+Neto(a)                      & 0         & 1        & Filho(a) responsável/cônjuge & Ambiguo         \\
+Neto(a)                      & 0         & 1        & Filho(a) responsável         & Ambiguo         \\
+Neto(a)                      & 0         & 1        & Enteado(a)                   & Ambiguo         \\
+Neto(a)                      & 0         & 1        & Genro ou nora                & Erro            \\
+Neto(a)                      & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Neto(a)                      & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Neto(a)                      & 0         & 1        & Neto(a)                      & Ambiguo         \\
+Neto(a)                      & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Neto(a)                      & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Neto(a)                      & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Neto(a)                      & 0         & 1        & Outros                       & Ambiguo         \\
+Bisneto(a)                   & 1         & 1        & Bisneto(a)                   & O Proprio       \\
+Bisneto(a)                   & 0         & 1        & Pessoa responsável           & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Conjuge                      & Erro            \\
+Bisneto(a)                   & 0         & 1        & Filho(a) responsável/cônjuge & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Filho(a) responsável         & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Enteado(a)                   & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Genro ou nora                & Erro            \\
+Bisneto(a)                   & 0         & 1        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Neto(a)                      & Ambiguo         \\
+Bisneto(a)                   & 0         & 1        & Bisneto(a)                   & Ambiguo         \\
+Bisneto(a)                   & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Bisneto(a)                   & 0         & 1        & Outros                       & Ambiguo         \\
+Irmão ou irmã                & 1         & 1        & Irmão ou irmã                & O Proprio       \\
+Irmão ou irmã                & 0         & 1        & Pessoa responsável           & Irmao/Irma      \\
+Irmão ou irmã                & 0         & 1        & Conjuge                      & Erro            \\
+Irmão ou irmã                & 0         & 1        & Filho(a) responsável/cônjuge & Não Entra       \\
+Irmão ou irmã                & 0         & 1        & Filho(a) responsável         & Não Entra       \\
+Irmão ou irmã                & 0         & 1        & Enteado(a)                   & Não Entra       \\
+Irmão ou irmã                & 0         & 1        & Genro ou nora                & Erro            \\
+Irmão ou irmã                & 0         & 1        & Pai, mãe, padrasto/madrasta  & Pai/Mãe         \\
+Irmão ou irmã                & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Irmão ou irmã                & 0         & 1        & Neto(a)                      & Não Entra       \\
+Irmão ou irmã                & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Irmão ou irmã                & 0         & 1        & Irmão ou irmã                & Irmao/Irma      \\
+Irmão ou irmã                & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Irmão ou irmã                & 0         & 1        & Outros                       & Ambiguo         \\
+Avô ou avó                   & 1         & 1        & Avô ou avó                   & O Proprio       \\
+Avô ou avó                   & 0         & 1        & Pessoa responsável           & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Conjuge                      & Erro            \\
+Avô ou avó                   & 0         & 1        & Filho(a) responsável/cônjuge & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Filho(a) responsável         & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Enteado(a)                   & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Genro ou nora                & Erro            \\
+Avô ou avó                   & 0         & 1        & Pai, mãe, padrasto/madrasta  & Ambiguo         \\
+Avô ou avó                   & 0         & 1        & Sogro(a)                     & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Neto(a)                      & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Bisneto(a)                   & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Irmão ou irmã                & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Avô ou avó                   & Não Entra       \\
+Avô ou avó                   & 0         & 1        & Outros                       & Ambiguo         \\
+Outros                       & 1         & 1        & Outros                       & O Proprio       \\
+Outros                       & 0         & 1        & Pessoa responsável           & Não Entra       \\
+Outros                       & 0         & 1        & Conjuge                      & Erro            \\
+Outros                       & 0         & 1        & Filho(a) responsável/cônjuge & Ambiguo         \\
+Outros                       & 0         & 1        & Filho(a) responsável         & Ambiguo         \\
+Outros                       & 0         & 1        & Enteado(a)                   & Ambiguo         \\
+Outros                       & 0         & 1        & Genro ou nora                & Erro            \\
+Outros                       & 0         & 1        & Pai, mãe, padrasto/madrasta  & Ambiguo         \\
+Outros                       & 0         & 1        & Sogro(a)                     & Ambiguo         \\
+Outros                       & 0         & 1        & Neto(a)                      & Ambiguo         \\
+Outros                       & 0         & 1        & Bisneto(a)                   & Ambiguo         \\
+Outros                       & 0         & 1        & Irmão ou irmã                & Ambiguo         \\
+Outros                       & 0         & 1        & Avô ou avó                   & Ambiguo         \\
+Outros                       & 0         & 1        & Outros                       & Ambiguo         \\
+Pessoa responsável           & 1         & 0        & Pessoa responsável           & O Proprio       \\
+Pessoa responsável           & 0         & 0        & Conjuge                      & Conjuge         \\
+Pessoa responsável           & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Genro ou nora                & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Pai, mãe, padrasto/madrasta  & Pai/Mãe         \\
+Pessoa responsável           & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Neto(a)                      & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Pessoa responsável           & 0         & 0        & Outros                       & Não Entra       \\
+Conjuge                      & 0         & 0        & Pessoa responsável           & Conjuge         \\
+Conjuge                      & 1         & 0        & Conjuge                      & O Proprio       \\
+Conjuge                      & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Conjuge                      & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Conjuge                      & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Conjuge                      & 0         & 0        & Genro ou nora                & Não Entra       \\
+Conjuge                      & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Conjuge                      & 0         & 0        & Sogro(a)                     & Pai/Mãe         \\
+Conjuge                      & 0         & 0        & Neto(a)                      & Não Entra       \\
+Conjuge                      & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Conjuge                      & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Conjuge                      & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Conjuge                      & 0         & 0        & Outros                       & Ambiguo         \\
+Filho(a) responsável/cônjuge & 1         & 0        & Filho(a) responsável/cônjuge & O Proprio       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Pessoa responsável           & Pai/Mãe         \\
+Filho(a) responsável/cônjuge & 0         & 0        & Conjuge                      & Pai/Mãe         \\
+Filho(a) responsável/cônjuge & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Genro ou nora                & Ambiguo         \\
+Filho(a) responsável/cônjuge & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Neto(a)                      & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Filho(a) responsável/cônjuge & 0         & 0        & Outros                       & Ambiguo         \\
+Filho(a) responsável         & 1         & 0        & Filho(a) responsável         & O Proprio       \\
+Filho(a) responsável         & 0         & 0        & Pessoa responsável           & Pai/Mãe         \\
+Filho(a) responsável         & 0         & 0        & Conjuge                      & Pai/Mãe         \\
+Filho(a) responsável         & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Genro ou nora                & Ambiguo         \\
+Filho(a) responsável         & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Neto(a)                      & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Filho(a) responsável         & 0         & 0        & Outros                       & Ambiguo         \\
+Enteado(a)                   & 1         & 0        & Enteado(a)                   & O Proprio       \\
+Enteado(a)                   & 0         & 0        & Pessoa responsável           & Pai/Mãe         \\
+Enteado(a)                   & 0         & 0        & Conjuge                      & Ambiguo         \\
+Enteado(a)                   & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Genro ou nora                & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Neto(a)                      & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Enteado(a)                   & 0         & 0        & Outros                       & Ambiguo         \\
+Genro ou nora                & 1         & 0        & Genro ou nora                & O Proprio       \\
+Genro ou nora                & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Genro ou nora                & 0         & 0        & Conjuge                      & Não Entra       \\
+Genro ou nora                & 0         & 0        & Filho(a) responsável/cônjuge & Ambiguo         \\
+Genro ou nora                & 0         & 0        & Filho(a) responsável         & Ambiguo         \\
+Genro ou nora                & 0         & 0        & Enteado(a)                   & Ambiguo         \\
+Genro ou nora                & 0         & 0        & Genro ou nora                & Não Entra       \\
+Genro ou nora                & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Genro ou nora                & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Genro ou nora                & 0         & 0        & Neto(a)                      & Não Entra       \\
+Genro ou nora                & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Genro ou nora                & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Genro ou nora                & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Genro ou nora                & 0         & 0        & Outros                       & Ambiguo         \\
+Pai, mãe, padrasto/madrasta  & 1         & 0        & Pai, mãe, padrasto/madrasta  & O Proprio       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Conjuge                      & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Genro ou nora                & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Pai, mãe, padrasto/madrasta  & Conjuge         \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Neto(a)                      & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Avô ou avó                   & Pai/Mãe         \\
+Pai, mãe, padrasto/madrasta  & 0         & 0        & Outros                       & Ambiguo         \\
+Sogro(a)                     & 1         & 0        & Sogro(a)                     & O Proprio       \\
+Sogro(a)                     & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Conjuge                      & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Genro ou nora                & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Sogro(a)                     & Conjuge         \\
+Sogro(a)                     & 0         & 0        & Neto(a)                      & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Sogro(a)                     & 0         & 0        & Outros                       & Ambiguo         \\
+Neto(a)                      & 1         & 0        & Neto(a)                      & O Proprio       \\
+Neto(a)                      & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Neto(a)                      & 0         & 0        & Conjuge                      & Não Entra       \\
+Neto(a)                      & 0         & 0        & Filho(a) responsável/cônjuge & Ambiguo         \\
+Neto(a)                      & 0         & 0        & Filho(a) responsável         & Ambiguo         \\
+Neto(a)                      & 0         & 0        & Enteado(a)                   & Ambiguo         \\
+Neto(a)                      & 0         & 0        & Genro ou nora                & Ambiguo         \\
+Neto(a)                      & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Neto(a)                      & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Neto(a)                      & 0         & 0        & Neto(a)                      & Não Entra       \\
+Neto(a)                      & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Neto(a)                      & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Neto(a)                      & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Neto(a)                      & 0         & 0        & Outros                       & Ambiguo         \\
+Bisneto(a)                   & 1         & 0        & Bisneto(a)                   & O Proprio       \\
+Bisneto(a)                   & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Conjuge                      & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Genro ou nora                & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Pai, mãe, padrasto/madrasta  & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Neto(a)                      & Ambiguo         \\
+Bisneto(a)                   & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Bisneto(a)                   & 0         & 0        & Outros                       & Ambiguo         \\
+Irmão ou irmã                & 1         & 0        & Irmão ou irmã                & O Proprio       \\
+Irmão ou irmã                & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Conjuge                      & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Genro ou nora                & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Pai, mãe, padrasto/madrasta  & Pai/Mãe         \\
+Irmão ou irmã                & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Neto(a)                      & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Avô ou avó                   & Não Entra       \\
+Irmão ou irmã                & 0         & 0        & Outros                       & Ambiguo         \\
+Avô ou avó                   & 1         & 0        & Avô ou avó                   & O Proprio       \\
+Avô ou avó                   & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Conjuge                      & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Filho(a) responsável/cônjuge & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Filho(a) responsável         & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Enteado(a)                   & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Genro ou nora                & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Pai, mãe, padrasto/madrasta  & Ambiguo         \\
+Avô ou avó                   & 0         & 0        & Sogro(a)                     & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Neto(a)                      & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Bisneto(a)                   & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Irmão ou irmã                & Não Entra       \\
+Avô ou avó                   & 0         & 0        & Avô ou avó                   & Ambiguo         \\
+Avô ou avó                   & 0         & 0        & Outros                       & Ambiguo         \\
+Outros                       & 1         & 0        & Outros                       & O Proprio       \\
+Outros                       & 0         & 0        & Pessoa responsável           & Não Entra       \\
+Outros                       & 0         & 0        & Conjuge                      & Ambiguo         \\
+Outros                       & 0         & 0        & Filho(a) responsável/cônjuge & Ambiguo         \\
+Outros                       & 0         & 0        & Filho(a) responsável         & Ambiguo         \\
+Outros                       & 0         & 0        & Enteado(a)                   & Ambiguo         \\
+Outros                       & 0         & 0        & Genro ou nora                & Ambiguo         \\
+Outros                       & 0         & 0        & Pai, mãe, padrasto/madrasta  & Ambiguo         \\
+Outros                       & 0         & 0        & Sogro(a)                     & Ambiguo         \\
+Outros                       & 0         & 0        & Neto(a)                      & Ambiguo         \\
+Outros                       & 0         & 0        & Bisneto(a)                   & Ambiguo         \\
+Outros                       & 0         & 0        & Irmão ou irmã                & Ambiguo         \\
+Outros                       & 0         & 0        & Avô ou avó                   & Ambiguo         \\
+Outros                       & 0         & 0        & Outros                       & Ambiguo         \\ \bottomrule
 \end{longtable}
 	% ---
 	

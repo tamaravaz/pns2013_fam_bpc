@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.31)  5 JUN 2017 22:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.31)  19 JUN 2017 02:43
 entering extended mode
 **"./monografia tamara vaz.tex"
 ("monografia tamara vaz.tex"
@@ -1001,9 +1001,25 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@dima=\skip271
 \bigstrutjot=\dimen161
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count180
+\float@exts=\toks30
+\float@box=\box34
+\@float@everytoks=\toks31
+\@floatcapt=\box35
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 ("C:\Users\tamara vaz\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count180
+\c@lips@count=\count181
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
@@ -1016,18 +1032,18 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 .sty")
 \minimumbiblabelwidth=\skip272
 \ABCIauxlen=\skip273
-\c@ABCIaux=\count181
-\c@ABCImax=\count182
+\c@ABCIaux=\count182
+\c@ABCImax=\count183
  ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip274
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks30
+\ABCItoken=\toks32
 )
-Package color Info: Redefining color blue on input line 124.
-Package hyperref Info: Option `colorlinks' set `true' on input line 141.
+Package color Info: Redefining color blue on input line 127.
+Package hyperref Info: Option `colorlinks' set `true' on input line 144.
 \"monografia tamara vaz"@idxfile=\write4
 \openout4 = `"monografia tamara vaz.idx"'.
 
@@ -1036,27 +1052,27 @@ Writing index file "monografia tamara vaz".idx
 ("monografia tamara vaz.aux")
 \openout1 = `"monografia tamara vaz.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 164.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 167.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 164.
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring ON on input line 167.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1064,36 +1080,36 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count183
+\c@section@level=\count184
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 164.
-LaTeX Info: Redefining \ref on input line 164.
-LaTeX Info: Redefining \pageref on input line 164.
-LaTeX Info: Redefining \nameref on input line 164.
-LaTeX Info: Redefining \degres on input line 164.
-LaTeX Info: Redefining \dots on input line 164.
-LaTeX Info: Redefining \up on input line 164.
-\myptabbox=\box35
+LaTeX Info: Redefining \nameref on input line 167.
+LaTeX Info: Redefining \ref on input line 167.
+LaTeX Info: Redefining \pageref on input line 167.
+LaTeX Info: Redefining \nameref on input line 167.
+LaTeX Info: Redefining \degres on input line 167.
+LaTeX Info: Redefining \dots on input line 167.
+LaTeX Info: Redefining \up on input line 167.
+\myptabbox=\box37
 \myptabboxwidth=\skip275
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 164.
+(lastpage)             ! on input line 167.
 ("C:\Users\tamara vaz\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 "
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count184
+\scratchcounter=\count185
 \scratchdimen=\dimen162
-\scratchbox=\box36
-\nofMPsegments=\count185
-\nofMParguments=\count186
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count187
+\scratchbox=\box38
+\nofMPsegments=\count186
+\nofMParguments=\count187
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count188
 \MPscratchDim=\dimen163
-\MPnumerator=\count188
-\makeMPintoPDFobject=\count189
-\everyMPtoPDFconversion=\toks32
+\MPnumerator=\count189
+\makeMPintoPDFobject=\count190
+\everyMPtoPDFconversion=\toks34
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1107,7 +1123,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 164.
+LaTeX Info: Redefining \microtypecontext on input line 167.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1122,7 +1138,7 @@ Package microtype Info: No adjustment of character kerning.
 "
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 181.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 184.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -1131,18 +1147,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 181.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 184.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 181.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 184.
  [1
 
 {C:/Users/tamara vaz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 190.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 190.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 193.
 
 ("C:\Users\tamara vaz\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
 "
@@ -1150,53 +1166,53 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 190.
+(Font)              <12> on input line 193.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 190.
+(Font)              <8> on input line 193.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 190.
+(Font)              <6> on input line 193.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 
+l.193 
        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 
  []
 
 
-Overfull \hbox (16.54776pt too wide) in paragraph at lines 234--234
+Overfull \hbox (16.54776pt too wide) in paragraph at lines 237--237
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 234.
+(Font)              <7> on input line 237.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 234.
+(Font)              <5> on input line 237.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 
+l.256 
        [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 272.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 275.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 272.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 275.
  [3
 
 ] [4
@@ -1229,9 +1245,9 @@ LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 38.
+(Font)              <14.4> on input line 46.
 
-Overfull \hbox (18.4622pt too wide) in paragraph at lines 42--42
+Overfull \hbox (18.4622pt too wide) in paragraph at lines 50--50
  [][] [][][]\T1/phv/b/n/12 TABELA VER-DADE DE RE-CRI-A-ÇÃO DO GRU-PA-MENTO 
  []
 
@@ -1247,54 +1263,185 @@ Overfull \hbox (18.4622pt too wide) in paragraph at lines 42--42
 
 ] [27]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 441.
- [28]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 457.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 452.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.457 
+      ]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 468.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 457.
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 468.
+ [29]
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
 []|\T1/ptm/m/n/10 (+20) Condição
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 487--487
+Underfull \hbox (badness 3919) in paragraph at lines 498--498
 \T1/ptm/m/n/10 (+20) no do-mi-cí-lio
  []
 
 
-Overfull \hbox (4.61794pt too wide) in paragraph at lines 487--487
+Overfull \hbox (4.61794pt too wide) in paragraph at lines 498--498
 []|\T1/ptm/m/n/10 (-20) Filhos/enteados| 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 494.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 501.
+[30pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
+) has been already used, duplicate ignored
 
-LaTeX Warning: Citation `metodologiaOsorio2011' on page 29 undefined on input l
-ine 495.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.505 
+      ] [31] [32pdfTeX warning (ext4): destination with the same identifier (na
+me{table.4.3}) has been already used, duplicate ignored
 
-[29] [30] [31
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.562 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4
+.4}) has been already used, duplicate ignored
 
-]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.562 
+      ]
+Overfull \hbox (3.75604pt too wide) in paragraph at lines 569--576
+ [][] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[33pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}
+) has been already used, duplicate ignored
 
-[32] [33] [34
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.632 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4
+.6}) has been already used, duplicate ignored
 
-] ("monografia tamara vaz.bbl" ("monografia tamara vaz.brf")
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.632 
+      ] [34pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.4.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.659 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4
+.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.659 
+      ] [35] [36
+
+] [37pdfTeX warning (ext4): destination with the same identifier (name{table.5.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.716 
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.764 
+      ] [39pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.5.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.805 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.5
+.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.805 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.5
+.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.805 
+      ] <distrbuicao_percapita.png, id=356, 426.09187pt x 361.35pt>
+File: distrbuicao_percapita.png Graphic file (type png)
+
+<use distrbuicao_percapita.png>
+Package pdftex.def Info: distrbuicao_percapita.png used on input line 807.
+(pdftex.def)             Requested size: 426.09082pt x 361.34912pt.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.817 
+       <./distrbuicao_percapita.png>] [41]
+<resumo_indicadores.png, id=367, 774.64406pt x 502.12593pt>
+File: resumo_indicadores.png Graphic file (type png)
+
+<use resumo_indicadores.png>
+Package pdftex.def Info: resumo_indicadores.png used on input line 820.
+(pdftex.def)             Requested size: 654.4199pt x 412.58873pt.
+ [42
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.826 \end{landscape}
+                      <./resumo_indicadores.png>]
+<prop_ac_indicegeral_especie.png, id=374, 491.58656pt x 344.78813pt>
+File: prop_ac_indicegeral_especie.png Graphic file (type png)
+
+<use prop_ac_indicegeral_especie.png>
+Package pdftex.def Info: prop_ac_indicegeral_especie.png used on input line 854
+.
+(pdftex.def)             Requested size: 457.17078pt x 320.64963pt.
+
+Overfull \hbox (2.17078pt too wide) in paragraph at lines 854--859
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.14}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.859 \end{center}
+                  ] [44pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.5.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.864 \chapter
+              {ConclusÃ£o} <./prop_ac_indicegeral_especie.png>]
+("monografia tamara vaz.bbl" ("monografia tamara vaz.brf")
 \tf@brf=\write5
 \openout5 = `"monografia tamara vaz.brf"'.
 
+ [45
 
-[35] [36
+] [46
 
 ]
 
@@ -1302,137 +1449,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-) [37] [38
+) [47] [48
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 637.
+(hyperref)                removing `\uppercase' on input line 896.
 
-[39
+[49
 
-] [40]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 642--645
- [] [] [] [] [] 
- []
+] [50] [51
 
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 645--650
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 650--652
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 652--654
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 654--675
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 675--695
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 695--715
- [] [] [] [] [] 
- []
-
-[41
-
-]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 715--735
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 735--755
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 755--775
- [] [] [] [] [] 
- []
-
-[42]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 775--795
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 795--815
- [] [] [] [] [] 
- []
-
-[43]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 815--835
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 835--855
- [] [] [] [] [] 
- []
-
-[44]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 855--875
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 875--895
- [] [] [] [] [] 
- []
-
-[45]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 895--915
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 915--935
- [] [] [] [] [] 
- []
-
-[46]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 935--955
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 955--975
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 975--995
- [] [] [] [] [] 
- []
-
-[47]
-Overfull \hbox (54.44562pt too wide) in alignment at lines 995--1014
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (54.44562pt too wide) in alignment at lines 1014--1015
- [] [] [] [] [] 
- []
-
-[48]
+] [52] [53] [54] [55] [56] [57] [58]
 No file "monografia tamara vaz".ind.
 
 AED: lastpage setting LastPage
-[49]
+[59]
 \tf@lof=\write6
 \openout6 = `"monografia tamara vaz.lof"'.
 
@@ -1442,46 +1474,45 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `"monografia tamara vaz.toc"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1029.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1029.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1288.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1288.
  ("monografia tamara vaz.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1029.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1029.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1288.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1288.
 
 Package rerunfilecheck Info: File `"monografia tamara vaz".brf' has not changed
 .
-(rerunfilecheck)             Checksum: 6B385F2331E90C244C4B81F0F18DC408;379.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 9E8F1F437290C1BE5F80CB3BB0857329;971.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1029.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1288.
  ) 
 Here is how much of TeX's memory you used:
- 14421 strings out of 493328
- 212897 string characters out of 3139107
- 486872 words of memory out of 3000000
- 17430 multiletter control sequences out of 15000+200000
- 73594 words of font info for 203 fonts, out of 3000000 for 9000
+ 14725 strings out of 493328
+ 218156 string characters out of 3139107
+ 491576 words of memory out of 3000000
+ 17644 multiletter control sequences out of 15000+200000
+ 83777 words of font info for 230 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,38p,1382b,655s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,19n,38p,1301b,655s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/
-uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on "monografia tamara vaz.pdf" (51 pages, 211370 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
+w/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "monografia tamara vaz.pdf" (61 pages, 416533 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 44257 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 655 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
+ 45872 words of extra memory for PDF output out of 51595 (max. 10000000)
 
