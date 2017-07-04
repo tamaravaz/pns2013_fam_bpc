@@ -5,47 +5,44 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{21}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{13}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Programa de Presta\IeC {\c c}\IeC {\~a}o Continuada e sua judicializa\IeC {\c c}\IeC {\~a}o}}{23}{chapter.2}
-\contentsline {section}{\numberline {2.1}Regras de elegibilidade }{23}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Car\IeC {\^e}ncia de meios para a manuten\IeC {\c c}\IeC {\~a}o}{23}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Tend\IeC {\^e}ncia e entendimento atual das judicializa\IeC {\c c}\IeC {\~o}es}{24}{section.2.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Programa de Presta\IeC {\c c}\IeC {\~a}o Continuada e concess\IeC {\~o}es por vias judiciais}}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}BPC e regras de elegibilidade }{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Judicializa\IeC {\c c}\IeC {\~o}es e entendimento atual}{16}{section.2.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Pobreza e sua dimens\IeC {\~o}es}}{25}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Pobreza multidimensional}}{19}{chapter.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {M\IeC {\'e}todos e procedimentos}}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Dados}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Identifica\IeC {\c c}\IeC {\~a}o dos pr\IeC {\'e} eleg\IeC {\'\i }veis e reconstru\IeC {\c c}\IeC {\~a}o da fam\IeC {\'\i }lia BPC}{27}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Ambiguidades e tratamento}{29}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}C\IeC {\'a}lculo da renda \textit {per capita} familiar}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}C\IeC {\'a}lculo do \IeC {\'\i }ndice de pobreza multidimensional familiar}{31}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Vulnerabilidade}{31}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Acesso insuficiente ao conhecimento}{32}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Acesso ao trabalho}{32}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Desenvolvimento infantil}{33}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Condi\IeC {\c c}\IeC {\~o}es habitacionais}{33}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Sa\IeC {\'u}de}{34}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Agrega\IeC {\c c}\IeC {\~a}o dos indicadores e dimens\IeC {\~o}es}{34}{subsection.4.4.7}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {M\IeC {\'e}todos e procedimentos}}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dados}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Identifica\IeC {\c c}\IeC {\~a}o dos pr\IeC {\'e} eleg\IeC {\'\i }veis e reconstru\IeC {\c c}\IeC {\~a}o da fam\IeC {\'\i }lia BPC}{21}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Ambiguidades e tratamento}{23}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}C\IeC {\'a}lculo da renda \textit {per capita} familiar}{24}{section.4.3}
+\contentsline {section}{\numberline {4.4}C\IeC {\'a}lculo do \IeC {\'\i }ndice de pobreza multidimensional familiar}{25}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Vulnerabilidade}{25}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Acesso insuficiente ao conhecimento}{26}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Acesso ao trabalho}{26}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Desenvolvimento infantil}{27}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Condi\IeC {\c c}\IeC {\~o}es habitacionais}{27}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Sa\IeC {\'u}de}{28}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Agrega\IeC {\c c}\IeC {\~a}o dos indicadores e dimens\IeC {\~o}es}{28}{subsection.4.4.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{37}{chapter.5}
-\contentsline {section}{\numberline {5.1}An\IeC {\'a}lise Descritiva}{37}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pobreza em grupos de estrato de renda per capita do BPC}{40}{section.5.2}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}An\IeC {\'a}lise Descritiva}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pobreza em grupos de estrato de renda per capita do BPC}{34}{section.5.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{45}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{39}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{47}{section*.13}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{41}{section*.8}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{49}{section*.14}
+\contentsline {part}{\uppercase {Anexos}}{43}{section*.9}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Tabela verdade de recria\IeC {\c c}\IeC {\~a}o do grupamento familiar do BPC}}{51}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Tabela verdade de recria\IeC {\c c}\IeC {\~a}o do grupamento familiar do BPC}}{45}{appendix.anexochapback.1}
 \vspace {\cftbeforechapterskip }

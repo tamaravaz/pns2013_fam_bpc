@@ -5,11 +5,37 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Aguinsky e Alencastro 2006]{aguinsky2006judicializaccao}
+\abntrefinfo{Aguinsky e Alencastro}{AGUINSKY; ALENCASTRO}{2006}
+{AGUINSKY, B.~G.; ALENCASTRO, E. H.~d. Judicializa{\c{c}}{\~a}o da quest{\~a}o
+  social: rebatimentos nos processos de trabalho dos assistentes sociais no
+  poder judici{\'a}rio.
+\emph{Revista Kat{\'a}lysis}, v.~9, n.~1, p. 19--26, 2006.}
+
 \bibitem[Barros, Carvalho e Franco 2006]{barros2006pobreza}
 \abntrefinfo{Barros, Carvalho e Franco}{BARROS; CARVALHO; FRANCO}{2006}
 {BARROS, R. P.~d.; CARVALHO, M.~d.; FRANCO, S. Pobreza multidimensional no
   brasil.
 Instituto de Pesquisa Econ{\^o}mica Aplicada (Ipea), 2006.}
+
+\bibitem[Brasil 1988]{brasil1988}
+\abntrefinfo{Brasil}{BRASIL}{1988}
+{BRASIL.
+Constituição (1988). \emph{Constituição da República Federativa do
+  Brasil}. Brasília, DF: Senado, 1988.}
+
+\bibitem[Brasil 1998]{acao1232}
+\abntrefinfo{Brasil}{BRASIL}{1998}
+{BRASIL. Procuradoria geral da república. ação direta de
+  inconstitucionalidade n. 1232, distribuída em 24 de fevereiro de 1995 e
+  julgada em 27 de agosto de 1998.
+\emph{Diário da Justiça}, 1998.}
+
+\bibitem[Brasil 2003]{lei_idoso2003}
+\abntrefinfo{Brasil}{BRASIL}{2003}
+{BRASIL. Lei n{\textordmasculine} 10.741, de 1{\textordmasculine} de outubro de
+  2003. dispõe sobre o estatuto do idoso e dá outras providências.
+\emph{Presidência da República}, 2003.}
 
 \bibitem[Brasil 2011]{loas2011}
 \abntrefinfo{Brasil}{BRASIL}{2011}
@@ -18,7 +44,7 @@ Instituto de Pesquisa Econ{\^o}mica Aplicada (Ipea), 2006.}
   organiza{\c{c}}{\~a}o da assist{\^e}ncia social.
 \emph{Di{\'a}rio Oficial da Rep{\'u}blica Federativa do Brasil}, 2011.}
 
-\bibitem[Brasil 2013]{acordao_STF_BPC}
+\bibitem[Brasil 2013]{acordaoSTFBPC}
 \abntrefinfo{Brasil}{BRASIL}{2013}
 {BRASIL. Acórdão do recurso extraordinário 580.963 pr.
 In:  \underline{\ \ \ \ \ \ \ \ }. Supremo Tribunal Federal, 2013.
@@ -50,6 +76,23 @@ Dispon{\'\i}vel em:
 {HUMPHRIES, K.~H.; DOORSLAER, E. V. Income-related health inequality in canada.
 \emph{Social science \& medicine}, Elsevier, v.~50, n.~5, p. 663--671, 2000.}
 
+\bibitem[Kageyama e Hoffmann 2006]{kageyama2006pobreza}
+\abntrefinfo{Kageyama e Hoffmann}{KAGEYAMA; HOFFMANN}{2006}
+{KAGEYAMA, A.; HOFFMANN, R. Pobreza no brasil: uma perspectiva
+  multidimensional.
+\emph{Economia e Sociedade}, v.~15, n.~1, p. 79--112, 2006.}
+
+\bibitem[Lopes et al. 2003]{lopes2003indicador}
+\abntrefinfo{Lopes et al.}{LOPES et al.}{2003}
+{LOPES, H.~M. et al. Indicador de pobreza: aplica{\c{c}}{\~a}o de uma abordagem
+  multidimensional ao caso brasileiro.
+\emph{Texto para Discuss{\~a}o}, n.~223, 2003.}
+
+\bibitem[Medeiros 2012]{medeiros2012medidas}
+\abntrefinfo{Medeiros}{MEDEIROS}{2012}
+{MEDEIROS, M. \emph{Medidas de desigualdade e pobreza}. Brasília: Editora
+  Universidade de Bras{\'\i}lia, 2012.}
+
 \bibitem[Medeiros, Granja e Neto 2009]{medeiros2009mudancca}
 \abntrefinfo{Medeiros, Granja e Neto}{MEDEIROS; GRANJA; NETO}{2009}
 {MEDEIROS, M.; GRANJA, F.~H.; NETO, M. S. \emph{Mudan{\c{c}}a do conceito de
@@ -62,11 +105,44 @@ Dispon{\'\i}vel em:
   inequality and health in brazil.
 \emph{Cadernos de Sa{\'u}de P{\'u}blica}, SciELO Brasil, 2002.}
 
-\bibitem[Penalva, Diniz e Medeiros 2010]{bpc_stf}
+\bibitem[ONU 2006]{onu2006convention}
+\abntrefinfo{ONU}{ONU}{2006}
+{ONU. Convention on the rights of persons with disabilities.
+\emph{GA Res}, v.~61, p.~106, 2006.}
+
+\bibitem[Penalva, Diniz e Medeiros 2010]{bpcstf}
 \abntrefinfo{Penalva, Diniz e Medeiros}{PENALVA; DINIZ; MEDEIROS}{2010}
 {PENALVA, J.; DINIZ, D.; MEDEIROS, M. O benef{\'\i}cio de presta{\c{c}}{\~a}o
   continuada no supremo tribunal federal.
 \emph{Sociedade e Estado}, SciELO Brasil, v.~25, n.~1, p. 53--70, 2010.}
+
+\bibitem[{Programa das Nações Unidas} 1990]{pnud1990}
+\abntrefinfo{{Programa das Nações Unidas}}{{Programa das Nações
+  Unidas}}{1990}
+{{Programa das Nações Unidas}, P. \emph{Human Development Report 1990}.
+[S.l.], 1990.}
+
+\bibitem[Rocha 2003]{rocha2003pobreza}
+\abntrefinfo{Rocha}{ROCHA}{2003}
+{ROCHA, S. \emph{Pobreza no Brasil: afinal, de que se trata?} São Paulo: FGV
+  Editora, 2003.}
+
+\bibitem[Sen 1983]{sen1983poor}
+\abntrefinfo{Sen}{SEN}{1983}
+{SEN, A. Poor, relatively speaking.
+\emph{Oxford economic papers}, v.~35, n.~2, p. 153--169, 1983.}
+
+\bibitem[Silva 2012]{silva2012judicializaccao}
+\abntrefinfo{Silva}{SILVA}{2012}
+{SILVA, N.~L. da. A judicializa{\c{c}}{\~a}o do benef{\'\i}cio de
+  presta{\c{c}}{\~a}o continuada da assist{\^e}ncia social.
+SciELO Brasil, 2012.}
+
+\bibitem[Soares 2009]{soares2009metodologias}
+\abntrefinfo{Soares}{SOARES}{2009}
+{SOARES, S. S.~D. Metodologias para estabelecer a linha de pobreza: objetivas,
+  subjetivas, relativas e multidimensionais.
+Instituto de Pesquisa Econ{\^o}mica Aplicada (Ipea), 2009.}
 
 \bibitem[Souza, Os{\'o}rio e Soares 2011]{metodologiaOsorio2011}
 \abntrefinfo{Souza, Os{\'o}rio e Soares}{SOUZA; OS{\'O}RIO; SOARES}{2011}

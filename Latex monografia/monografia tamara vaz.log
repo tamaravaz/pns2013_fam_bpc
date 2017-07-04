@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.31)  19 JUN 2017 02:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.31)  4 JUL 2017 18:31
 entering extended mode
 **"./monografia tamara vaz.tex"
 ("monografia tamara vaz.tex"
@@ -1180,268 +1180,250 @@ l.193
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-
- []
-
-
-Overfull \hbox (16.54776pt too wide) in paragraph at lines 237--237
-[]  [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 237.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 237.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 244.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 244.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.256 
-       [2]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 275.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 275.
- [3
+l.257 \end{folhadeaprovacao}
+                             [2
+
+] [3
+
 
 ] [4
 
-] [5
-
-] [6
-
-] [7] [8
-
-] [9] [10
+] [5] [6
 
 ] ("monografia tamara vaz.lof")
-[11] [12
+[7] [8
 
-] ("monografia tamara vaz.lot") [13] [14
+] ("monografia tamara vaz.lot") [9] [10
 
-] [15
+] ("monografia tamara vaz.toc"
+Overfull \hbox (10.09718pt too wide) in paragraph at lines 11--11
+ [][] [][][]\T1/phv/b/n/12 PROGRAMA DE PRES-TA-ÇÃO CON-TI-NU-ADA E CON-CES-SÕES
+ POR 
+ []
 
-] [16
-
-] [17
-
-] [18
-
-]
-("monografia tamara vaz.toc"
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 24.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 24.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 46.
+(Font)              <14.4> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 43.
 
-Overfull \hbox (18.4622pt too wide) in paragraph at lines 50--50
+Overfull \hbox (18.4622pt too wide) in paragraph at lines 47--47
  [][] [][][]\T1/phv/b/n/12 TABELA VER-DADE DE RE-CRI-A-ÇÃO DO GRU-PA-MENTO 
  []
 
-) [19] [20
+) [11] [12
 
-] [21
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [22
+ [13
 
-] [23] [24] [25
+]
+[14]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 356.
+ [15
 
-] [26
+] [16] [17] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [27]
+ [19
+
+]
+[20] [21
+
+]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 452.
- [28pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 455.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.457 
+l.460 
       ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 468.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 471.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 468.
- [29]
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 471.
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 501--501
 []|\T1/ptm/m/n/10 (+20) Condição
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 498--498
+Underfull \hbox (badness 3919) in paragraph at lines 501--501
 \T1/ptm/m/n/10 (+20) no do-mi-cí-lio
  []
 
 
-Overfull \hbox (4.61794pt too wide) in paragraph at lines 498--498
+Overfull \hbox (4.61794pt too wide) in paragraph at lines 501--501
 []|\T1/ptm/m/n/10 (-20) Filhos/enteados| 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 501.
-[30pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 504.
+[24pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.505 
-      ] [31] [32pdfTeX warning (ext4): destination with the same identifier (na
+l.508 
+      ] [25] [26pdfTeX warning (ext4): destination with the same identifier (na
 me{table.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.562 
+l.565 
       pdfTeX warning (ext4): destination with the same identifier (name{table.4
 .4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.562 
+l.565 
       ]
-Overfull \hbox (3.75604pt too wide) in paragraph at lines 569--576
+Overfull \hbox (3.75604pt too wide) in paragraph at lines 572--579
  [][] 
  []
 
-[33pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}
+[27pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.632 
+l.635 
       pdfTeX warning (ext4): destination with the same identifier (name{table.4
 .6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.632 
-      ] [34pdfTeX warning (ext4): destination with the same identifier (name{ta
+l.635 
+      ] [28pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.4.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.659 
+l.662 
       pdfTeX warning (ext4): destination with the same identifier (name{table.4
 .8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.659 
-      ] [35] [36
+l.662 
+      ] [29] [30
 
-] [37pdfTeX warning (ext4): destination with the same identifier (name{table.5.
+] [31pdfTeX warning (ext4): destination with the same identifier (name{table.5.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.716 
+l.719 
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
+ [32pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.764 
-      ] [39pdfTeX warning (ext4): destination with the same identifier (name{ta
+l.767 
+      ] [33pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.5.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.805 
+l.808 
       pdfTeX warning (ext4): destination with the same identifier (name{table.5
 .12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.805 
+l.808 
       pdfTeX warning (ext4): destination with the same identifier (name{table.5
 .13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.805 
-      ] <distrbuicao_percapita.png, id=356, 426.09187pt x 361.35pt>
+l.808 
+      ] <distrbuicao_percapita.png, id=393, 426.09187pt x 361.35pt>
 File: distrbuicao_percapita.png Graphic file (type png)
 
 <use distrbuicao_percapita.png>
-Package pdftex.def Info: distrbuicao_percapita.png used on input line 807.
+Package pdftex.def Info: distrbuicao_percapita.png used on input line 810.
 (pdftex.def)             Requested size: 426.09082pt x 361.34912pt.
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.817 
-       <./distrbuicao_percapita.png>] [41]
-<resumo_indicadores.png, id=367, 774.64406pt x 502.12593pt>
+l.820 
+       <./distrbuicao_percapita.png>] [35]
+<resumo_indicadores.png, id=404, 774.64406pt x 502.12593pt>
 File: resumo_indicadores.png Graphic file (type png)
 
 <use resumo_indicadores.png>
-Package pdftex.def Info: resumo_indicadores.png used on input line 820.
+Package pdftex.def Info: resumo_indicadores.png used on input line 823.
 (pdftex.def)             Requested size: 654.4199pt x 412.58873pt.
- [42
+ [36
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.826 \end{landscape}
+l.829 \end{landscape}
                       <./resumo_indicadores.png>]
-<prop_ac_indicegeral_especie.png, id=374, 491.58656pt x 344.78813pt>
+<prop_ac_indicegeral_especie.png, id=411, 491.58656pt x 344.78813pt>
 File: prop_ac_indicegeral_especie.png Graphic file (type png)
 
 <use prop_ac_indicegeral_especie.png>
-Package pdftex.def Info: prop_ac_indicegeral_especie.png used on input line 854
+Package pdftex.def Info: prop_ac_indicegeral_especie.png used on input line 857
 .
 (pdftex.def)             Requested size: 457.17078pt x 320.64963pt.
 
-Overfull \hbox (2.17078pt too wide) in paragraph at lines 854--859
+Overfull \hbox (2.17078pt too wide) in paragraph at lines 857--862
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
+ [37
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.14}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.859 \end{center}
-                  ] [44pdfTeX warning (ext4): destination with the same identif
+l.862 \end{center}
+                  ] [38pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.5.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.864 \chapter
+l.867 \chapter
               {ConclusÃ£o} <./prop_ac_indicegeral_especie.png>]
 ("monografia tamara vaz.bbl" ("monografia tamara vaz.brf")
 \tf@brf=\write5
 \openout5 = `"monografia tamara vaz.brf"'.
 
- [45
+ [39
 
-] [46
+] [40
 
 ]
 
@@ -1449,22 +1431,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-) [47] [48
-
-]
+[41]) [42]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 896.
 
-[49
+[43
 
-] [50] [51
 
-] [52] [53] [54] [55] [56] [57] [58]
+] [44] [45
+
+] [46] [47] [48] [49] [50] [51] [52]
 No file "monografia tamara vaz".ind.
 
 AED: lastpage setting LastPage
-[59]
+[53]
 \tf@lof=\write6
 \openout6 = `"monografia tamara vaz.lof"'.
 
@@ -1482,7 +1463,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1288.
 
 Package rerunfilecheck Info: File `"monografia tamara vaz".brf' has not changed
 .
-(rerunfilecheck)             Checksum: 9E8F1F437290C1BE5F80CB3BB0857329;971.
+(rerunfilecheck)             Checksum: 822DC2D5C740534BF032212FD5795C82;2618.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1490,13 +1471,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1288.
  ) 
 Here is how much of TeX's memory you used:
- 14725 strings out of 493328
- 218156 string characters out of 3139107
- 491576 words of memory out of 3000000
- 17644 multiletter control sequences out of 15000+200000
- 83777 words of font info for 230 fonts, out of 3000000 for 9000
+ 14855 strings out of 493328
+ 221135 string characters out of 3139107
+ 496157 words of memory out of 3000000
+ 17770 multiletter control sequences out of 15000+200000
+ 79749 words of font info for 230 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,19n,38p,1301b,655s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,19n,38p,1671b,655s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1510,9 +1491,9 @@ fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
 w/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "monografia tamara vaz.pdf" (61 pages, 416533 bytes).
+Output written on "monografia tamara vaz.pdf" (55 pages, 443600 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
- 45872 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
+ 39696 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -206,37 +206,6 @@
 %     \includepdf{fig_ficha_catalografica.pdf}
 % \end{fichacatalografica}
 
-\begin{fichacatalografica}
-	\sffamily
-	\vspace*{\fill}					% Posição vertical
-	\begin{center}					% Minipage Centralizado
-	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
-	\small
-	\imprimirautor
-	%Sobrenome, Nome do autor
-	
-	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
-	\imprimirlocal, \imprimirdata-
-	
-	\hspace{0.5cm} \pageref{LastPage} p. : il. (algumas color.) ; 30 cm.\\
-	
-	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
-	
-	\hspace{0.5cm}
-	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
-	\imprimirdata.}\\
-	
-	\hspace{0.5cm}
-		1. Palavra-chave1.
-		2. Palavra-chave2.
-		2. Palavra-chave3.
-		I. Orientador.
-		II. Universidade xxx.
-		III. Faculdade de xxx.
-		IV. Título 			
-	\end{minipage}}
-	\end{center}
-\end{fichacatalografica}
 % ---
 
 
@@ -298,19 +267,6 @@
 
 \end{agradecimentos}
 % ---
-
-% ---
-% Epígrafe
-% ---
-\begin{epigrafe}
-    \vspace*{\fill}
-	\begin{flushright}
-		\textit{``Grito aflito na rua do sossego'' \\
-		(Alceu Valença)}
-	\end{flushright}
-\end{epigrafe}
-% ---
-
 % ---
 % RESUMOS
 % ---
@@ -318,9 +274,10 @@
 % resumo em português
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
- 
+ Este trabalho visa verificar se os extratos de renda \textit{per capita}, o critério de 1/4 estipulado na LOAS e o de 1/2 adotado implicitamente pelo judiciário, são de fato similares em termos de pobreza. O critério de 1/2 de renda \textit{per capita} tem sido adotado para as concessões por vias judiciais, sob o argumento de que o requerente que teve seu pedido negado por extrapolar a regra do BPC, têm condições socioeconômicas tão agravadas quando os naturalmente eleitos ao benefício. As reclamações com esse teor chegaram até o SFT, que em 2013 facilitou esse tipo de análise, ao entender que: embora o critério continue valendo, outros elementos comprobatórios de miserabilidade possam ser usados, sem no entanto estipular quais seriam. Com isso, a lei que regulamenta o programa ficou omissa quanto aos novos critérios. A principal conclusão deste trabalho é que os estratos de renda não são diferentes em pobreza quando levadas em conta várias dimensões. Além da similaridade do índice sintético geral, os grupos também são similares nas dimensões desagregadas do índice e na distribuição das famílias por índice de pobreza. Outra conclusão relevante é que, mesmo havendo um tratamento não isonômico entre pessoas com deficiência e idosos na LOAS, esses não diferem quanto ao grau de pobreza medido pelo índice, tanto comparados dentro dos estratos quando entre os estrados.
 
- \textbf{Palavras-chave}: 
+
+ \textbf{Palavras-chave}: pobreza; indicador multidimensional; Benefício de prestação continuada; judicialização  da  política  pública.
 \end{resumo}
 
 
@@ -338,26 +295,6 @@
 \pdfbookmark[0]{\listtablename}{lot}
 \listoftables*
 \cleardoublepage
-% ---
-
-% ---
-% inserir lista de abreviaturas e siglas
-% ---
-\begin{siglas}
-  \item[ABNT] Associação Brasileira de Normas Técnicas
-  \item[abnTeX] ABsurdas Normas para TeX
-\end{siglas}
-% ---
-
-% ---
-% inserir lista de símbolos
-% ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
 % ---
 
 % ---
@@ -379,36 +316,102 @@
 % Introdução
 % ---
 \chapter{Introdução}
+
+O Benefício de Prestação Continuada (BPC) faz parte dos benefícios da assistência social previsto na Constituição Federal brasileira de 1998. O benefício é direcionado à pessoas idosas ou com deficiência que comprovaram não possuir meios de prover à própria manutenção ou te-la provida por sua família. O BPC é caracterizado como não condicional, pois não depende de qualquer contribuição prévia ou contra partida financeira por parte do beneficiário. A lei que regulamenta o programa entendeu como insuficiência de meios para a manutenção a condição do requerente ao benefício com renda \textit{per capita} de até 1/4 de salário mínimo. 
+
+Ao longo dos anos, diversas foram as contestações dos critérios do BPC definidos pela Lei Orgânica de Assistência social (LOAS). Um dos mais questionados, e que permaneceu inalterado desde sua concepção foi o de insuficiência de renda. A criação de novos programas no âmbito da assistência social que previam o corte de elegibilidade de 1/2 do salário mínimo, fez com que na prática o benefício fosse concedido na justiça quando a renda \textit{per capita} era de até 1/2 do salário mínimo. Em 2013 o Supremo Tribunal Federal (STF) julgou que, para o deferimento do Benefício de prestação continuada, podem ser consideradas outros elementos probatórios de miserabilidade além da regra de 1/4 de salário mínimo, sem decretar a nulidade critério de renda do BPC. Os demais critérios que comprovem a situação de miserabilidade do grupo familiar e da situação de vulnerabilidade carecem de regulamento e estão omitidos na Lei Orgânica de Assistência Social. Dessa forma, o critério de pobreza para a concessão do benefício se tornou subjetivo, ficando ao arbítrio da análise individual dos casos deferidos pelo judiciário. 
+ 
+Esse subjetivismo introduzido ao programa pela decisão do STF se a grava ao perceber que as concessões judiciais têm crescido ao longo dos anos, e ja respondem por uma parte significativa de todas concessões do benefício. Além disso, a literatura pertinente argumenta que as concessões têm um efeito perverso sobre a isonomia, já que o acesso ao judiciário é desigual, privilegiando indivíduo mais instruídos e que estão em locais onde há menor ocorrências de pobreza.
+
+Conquanto, o entendimento do judiciário de que indivíduos com rendas mais altas podem estar na mesma, ou pior, situação de pobreza não é espúrio. A definição de pobreza como fenômeno multidimensional tem certo consenso na literatura. A existência de bens não monetário e o acesso desigual aos recursos corroboram o uso de uma análise multidimensional em detrimento da puramente monetária. Entretanto, os problemas na operacionalização dessas análises são tão expressivos quanto as críticas ao uso da insuficiência de renda para aferir a pobreza. 
+
+O presente trabalho apresenta um esforço no sentido de avaliar se os extratos de renda \textit{per capita}, o critério de 1/4 estipulado na LOAS e o de 1/2 adotado implicitamente pelo judiciário, são de fato similares em termos de pobreza. Os dados de indivíduos e domicílio são provenientes da Pesquisa Nacional de Saúde (PNS) de 2013. A escolha da PNS como fonte de dados adveio da maior disponibilidade de indicadores dos tipos de deficiência e limitações advindas dela. O método consistiu em x etapas:
+
+\begin{enumerate}
+	\item Identificação dos preeleitos ao BPC, aplicando todas as regras de elegibilidade prevista na LOAS, exceto renda.
+	\item Recriação do grupo familiar do beneficiário, mantendo apenas os indivíduos que podem entrar no cômputo da renda.
+	\item Identificação e retirada das rendas provenientes do Programa Bolsa Família
+	\item Cálculo da renda familiar \textit{per capita}
+	\item Cálculo do índice de pobreza familiar multidimensional para cada estrado
+\end{enumerate}
+
+Esse estudo está organizado em seis seções, sendo a primeira esta introdução. Na segunda seção são apresentadas um breve histórico das concessões judiciais do BPC e suas regras de elegibilidade. O terceiro expõe a revisão de literatura sobre pobreza multidimensional. A quarta seção explicita os métodos e procedimentos necessários para a obtenção dos estratos de renda dos elegíveis ao BPC e a construção do índice de pobreza familiar multidimensional. Em seguida, na quinta seção são descritos os resultados e, por fim, a sexta apresenta as conclusões. 
 % ---
+
 
 % ---
 % Programa de Prestação Continuada e sua judicialização
 % ---
-\chapter{Programa de Prestação Continuada e sua judicialização}
-O Benefício de Prestação Continuada é a garantia de um salário mínimo mensal, transferido de modo incondicional e idenpedente de qualquer contribuição prévia para o sistema de seguridade social. O benefício é destinado ao idoso com mais de 65 anos de idade e pessoa com deficiência que comprovem não possuir meios de prover a própria manutenção ou de tê-la provida pelos membros familiares residentes no mesmo domicílio. O benefício faz parte da política de assistência social, coordenado pelo Ministério do Desenvolvimento Social e Combate à Fome -- MDS, operacionalizado pelo Instituto Nacional do Seguro Social -- INSS e tem-se assegurado na constituição. Não obstante, sua regulamentação só ocorreu em 1993 na Lei Orgânica da Assistência Social (Loas), sendo implantada em 1996 após o Decreto n. 1744/1995 \cite{bpc_stf}. As regras de legebilidade foram redefinidas diversas vezes, a apresentada aqui será a mais atual, estabelecida peloXXXXXXXXXXXXXXXXXX
+\chapter{Programa de Prestação Continuada e concessões por vias judiciais}
+
+	\section{BPC e regras de elegibilidade }
+A Constituição de 1998 prevê, como parte da assistência social, ``a garantia de um salário mínimo de benefício mensal à pessoa portadora de deficiência e ao idoso que comprovem não possuir meios de prover à própria manutenção ou de tê-la provida por sua família, conforme dispuser a lei'' \cite[Art. 203, inciso V]{brasil1988}. Além disso, essa transferência não depende de contribuição prévia à seguridade social ou de qualquer contrapartida por parte do beneficiário. Conquanto, a política pública para essa finalidade so viria a ser regulamentada em 1993 pela Lei Orgânica Social (LOAS), definindo critérios objetivos para o recebimento do Benefício de Prestação Continuada (BPC). O benefício é coordenado pelo Ministério do Desenvolvimento Social e Combate à Fome -- MDS, operacionalizado pelo Instituto Nacional do Seguro Social -- INSS.
 
 
-	\section{Regras de elegibilidade }
-		\subsection{Carência de meios para a manutenção}
-		A LOAS define quatro critérios para a definição dos elegíveis ao benefício: insuficiência de meios de provimento, conceito familiar, definição de idoso e  . A incapacidade de provimento mínimo é definida como a pessoa que tenha renda \textit{per capita} inferior a 1/4 do salário mínimo vigente. Ademais, nos casos de concessão do benefício para pessoas com deficiências, essas não poderão exercer atividade remunerada, excedo na condição de aprendiz por um prazo máximo de dois anos. Segundo \citeonline{adriana2016}, esse critério é largamente utilizado nos programas governamentais, de modo a facilitar a operacionalização dos programas e evitar o tratamento não isonômico. Alem disso, quando instituído o salário mínimo na constituição de 1998, sua definição presumia que o valor era capaz de atender às necessidades básicas de uma família mononuclear, ou seja: pessoa, conjugue e dois filhos, corroborando o corte de 1/4 do salário mínimo instituído.
+As regras de elegibilidade elencadas na LOAS foram redefinidas diversas vezes, a apresentada aqui será a mais atual, sendo a ultima modificação realizada pelo Decreto nº 8.805, de 7 de julho de 2016. O candidato ao benefício deve estar inscrito no Cadastro Único para Programas Sociais do Governo Federal (Cadastro Único) e se enquadrar nos seguintes critérios: ter insuficiência de meios de provimento, ser idoso ou pessoa com deficiência.
+		
+		 A incapacidade de provimento mínimo é definida como a pessoa que tenha renda \textit{per capita} inferior a 1/4 do salário mínimo vigente. Ademais, nos casos de concessão do benefício para pessoas com deficiências, essas não poderão exercer atividade remunerada, excedo na condição de aprendiz por um prazo máximo de dois anos. Segundo \citeonline{adriana2016}, o estabelecimento de um corte de renda para definir o limite de pobreza ser elegível é largamente utilizado nos programas governamentais, de modo a facilitar a operacionalização dos programas e evitar o tratamento não isonômico. Embora não se tenha explicitamente justificado o corte de 1/4 de renda \textit{per capita}, \citeonline{adriana2016} afirma ainda que o corte do programa advém de uma inferência da definição de salário mínimo da Constituição, que o define da seguinte forma:
+		 
+		 \begin{citacao}
+		 	IV - salário mínimo , fixado em lei, nacionalmente unificado, capaz de atender a suas necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes periódicos que lhe preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim \cite[Art. 7{\textordmasculine}]{brasil1988}.
+		 	
+		 \end{citacao}
+	 
+	  Assim, o salário mínimo presumia que o valor era capaz de atender às necessidades básicas de uma família mononuclear, ou seja: pessoa, conjugue e dois filhos, corroborando o corte de 1/4 do salário mínimo instituído.
 		
 
-		O conceito de família definido pelo programa é determinante para o cálculo da renda mínima de elegibilidade. A LOAS explicita a inclusão nesse cálculo as rendas do requerente ao benefício, seu cônjuge, filhos e enteados solteiros, irmãos solteiros, os pais e, na ausência de um deles, a madrasta ou o padrasto e menores tutelados, desde que esses integrantes familiares vivam sobre o mesmo teto. Como explicitado, o conceito familiar no BPC não é definido estritamente segundo a existência de uma unidade de consumo. \citeonline{medeiros2009mudancca} afirma que a definição atual de família do programa traz distorssoes, podendo superestimar a renda de algumas famílias pobres ou subestimar a capacidade de prover o sustento de famílias que tenham filhos e irmãos casados ou demais parentes mais ricos. Como essa definição impacta diretamente o cálculo da renda \textit{per capita}, estudos já verificaram o efeito de uma mudança nesse conceito. A mudança que considere a unidade domiciliar de consumo como família, traria a exclusão e introdução de beneficiários, tendo em média efeito nulo líquido. No entanto, traria uma maior focalização do programa \cite{medeiros2009mudancca,fambpcfreitas}.
+		Para definir a renda por pessoa do candidato ao BPC, a LOAS determina quem deve entrar no cômputo dessa renda. Para isso, é definido o conceito de grupo familiar do beneficiário. A LOAS explicita a inclusão nesse cálculo as rendas do requerente ao benefício, seu cônjuge, filhos e enteados solteiros, irmãos solteiros, os pais e, na ausência de um deles, a madrasta ou o padrasto e menores tutelados, desde que esses integrantes familiares vivam sobre o mesmo teto. Como explicitado, o conceito familiar no BPC não é definido estritamente segundo a existência de uma unidade de consumo. \citeonline{medeiros2009mudancca} afirma que a definição atual de família do programa traz distorssoes, podendo superestimar a renda de algumas famílias pobres ou subestimar a capacidade de prover o sustento de famílias que tenham filhos e irmãos casados ou demais parentes mais ricos. Como essa definição impacta diretamente o cálculo da renda \textit{per capita}, estudos já verificaram o efeito de uma mudança nesse conceito. A mudança que considere a unidade domiciliar de consumo como família, traria a exclusão e introdução de beneficiários, tendo em média efeito nulo líquido. No entanto, traria uma maior focalização do programa \cite{medeiros2009mudancca,fambpcfreitas}.
 		
-		O conceito de idoso segue atualmente o descrito no Estatuto do Idoso de 2003, que considera idoso pessoas com 65 anos ou mais. A definição de deficiência segue a Convenção sobre Direitos das Pessoas com Deficiência das Nações Unidas, que estabelece que o a deficiência está em constante transformação 
+		O conceito de idoso é o requisito em que há menor discussão, dada a objetividade do corte de idade. A idade mínima segue atualmente o descrito no Estatuto do Idoso de 2003, considerando idoso pessoas com 65 anos ou mais \cite{lei_idoso2003}. 
 		
-		
-		
-		
-		
-\section{Tendência e entendimento atual das judicializações}
-% ---
+		A  Convenção das Nações Unidas sobre os Direitos das Pessoas com Deficiência de 2006, e que foi ratificada pelo Brasil em 2008, norteou a definição de pessoa com deficiência no Benefício de Prestação Continuada. Para a Convenção, além das barreiras físicas de longo prazo que constituem a definição de pessoa com deficiência, o a deficiência deve também ser entendida em seu contexto social. Isso implica dizer que o conceito não é rígido e imutável. Assim, esse conceito deve se adequar e levar em consideração às barreiras impostas pelo estilo de vida e pelo ambiente que impeçam o indivíduo de ter igualdade de oportunidades e de participação na sociedade \cite{onu2006convention}. Em consonância com a Convenção, a LOAS avalia a pessoa com deficiência em duas etapas: a primeira verifica a deficiência do ponto de vista físico, avaliado por um exame médico; a segunda etapa avalia o grau de impedimento do indivíduo em relação ao meio, a partir de uma investigação social realizada por assistentes sociais do Instituto Nacional de Seguro Social (INSS). No entanto, não há definição dos parâmetros usados para a segunda etapa na lei. 
+				
+\section{Judicializações e entendimento atual}
+
+Dentre as regras de elegibilidade definidas na LOAS, a que mais têm  gerado concessões por judicialização foi a definição de insuficiência de meios a partir do corte de renda per capita em 1/4 \cite{adriana2016}. O debate sobre o uso desse corte como único meio de aferir a pobreza do indivíduo foi diversas vezes questionada, chegando ao STF. 
+
+Dois anos após a regulamentação do BPC, foi interposto a Ação direta de Inconstitucionalidade nº 1.232, ajuizada pelo Procurador Geral da República, que pedia a suspensão da regra de renda mínima para a concessão do BPC, com o seguinte argumento:
+
+	\begin{citacao}
+	Adota o requerente os fundamentos expostos em solicitação que lhe foi dirigida pelo órgão, no Estado de São Paulo, segundo os quais o dispositivos sob enfoque limita e restringe o direito garantido por norma constitucional (art. 2013, inc. V), com a qual, por isso, considera incompatível \cite[pag. 96 ]{acao1232}.
+\end{citacao}
+
+A ação foi julgada improcedente, prevalecendo o entendimento de que a definição de insuficiência de meios caberia somente a lei, e por isso essa seria soberana sobre a estipulação dos critérios. 
+
+Mesmo após a decisão do STF, os pedidos de concessões por vias judiciais continuaram sendo gerados por pessoas que entendiam que tinham direito ao benefício mesmo tendo renda de até meio salário mínimo por pessoa \cite{bpcstf}. Com a contínua interpelação dos requerentes ao benefício aos Juízes Federais, as reclamações continuavam a chegar ao STF. Em 2004, na Reclamação nº 2303, cujo requerente tinha meio salário mínimo \textit{per capita} e o Juiz havia concedido o benefício com argumento de que haviam condições socioeconômicas que demostravam miserabilidade, o STF novamente ratificou a unicidade do critério legal definido na LOAS. 
+
+No entanto, segundo \cite{bpcstf}, os magistrados em instâncias ordinárias continuavam a conceder o BPC quando haviam indícios de pobreza nas condições socioeconômicas do indivíduo. Além disso, os novos programas criados no âmbito da Assistência Social, posterior ao BPC, tinham cortes de renda de 1/2 do salário mínimo, gerando respaldo nas decisões judiciais afim de manter a isonomia. Ou seja, na prática, ao se judicializar, o benefício era concedido caso o indivíduo tivesse renda \textit{per capita} de até 1/2 do salário mínimo. 
+
+Por fim, em uma nova contestação em 2013 de constitucionalidade do requisito financeiro estabelecido pela LOAS, o Acordão do STF manteve sua decisão de entender a regra como constitucional. Todavia, embora a regra continue em vigência, o STF entendeu que a regra não deve impedir a concessão do BPC ao idoso ou a pessoa com deficiência que comprovar por outros meios estar, ele e sua família, em situação de miserabilidade \cite{acordaoSTFBPC}.
+
+As concessões judiciais podem, no entendimento do judiciário, estar trabalhando a favor da sociedade no momento em que provê o acesso a um suposto direito, que lhe foi privado por má especificação da regra na lei. No entanto, pode haver dois grandes problemas em conceder benefícios por essa via. O primeiro diz respeito à nebulosidade do critério. Ao permitir que se possa conceder benefícios por outros elementos que comprovem miserabilidade, o judiciário desmonta a operacionalização do programa, já que não há clareza dos critérios utilizados. Ainda por conta dessa opacidade do critério, a via judicial traz análises individualistas dos casos: cada magistrado pode entender, por suas convicções pessoais, que há ou não miserabilidade do candidato ao benefício. Outro problema diz respeito as desigualdades de acesso ao sistema judiciário. \citeonline{silva2012judicializaccao} analisa os dados do Censo de 2010 de extrema pobreza e identifica que as áreas com menor taxa de domicílios em situação de extrema pobreza é a que teve mais benefícios concedidos por judicializações. \citeonline{aguinsky2006judicializaccao} corrobora a ideia de que o acesso à justiça é problemático na medida em que há uma seleção dos indivíduos que conhecem e conseguem acessar essa via jurídica. Quando analisada no contexto de uma política pública direcionada aos extremamente pobres, essa desigualdade de acesso torna a via judicial ainda mais perigosa, podendo estar na verdade favorecendo os os menos pobres e contribuindo negativamente para a focalização do programa.  
+
+Esses problemas são agravados quando verificada a magnitude e trajetória das concessões por decisões judiciais. Desde 2004, primeira estatística disponível, até 2015 foram concedidos 335 mil benefícios, que representam 10\% do total de concessões do último ano registrado. Além disso, as concessões por vias judiciais têm crescido ano a ano: em 2004 essas concessões respondiam por 2,5\% do total de benefício concedido, vindo a representar 18,6\% em 2015.
+
+O Decreto n º 8.805, de 7 de julho de 2016 definiu que para a concessão de novos benefícios e a atualização dos vigentes, os indivíduos terão que ser cadastrados no Cadastro Único. Esse sistema apresenta informações socioeconômicas de todos os indivíduos que compõem uma família e do domicílio dessas pessoas. O que pode indicar uma tentativa da gestão do programa em enfrentar as concessões judiciais e a recente decisão do Supremo Tribunal Federal de levar em consideração outros elementos probatórios de miserabilidade. 
 
 % ---
 % Pobreza e sua dimensões
 % ---
-\chapter{Pobreza e sua dimensões}
-O grande pressuposto das análises baseadas na dimensão de renda para a análise de pobreza é que essa é capaz de refletir a miséria do indivíduo em todas as demais dimensões. Isso corre por tratar-se por hipótese que a renda é capaz de comprar o bem estar básico. A linha de pobreza reflete, ou deveria, o mínimo necessário para a existência. Decorre imediatamente dessa suposição que existem mercados acessíveis em que esse indivíduo possa recorrer afim de "comprar" o seu bem estar. No entando, as nítidas imperfeições de mercado podem fazer com que mesmo havendo recurso não haja esse acesso aos bens básico. Outra discussão seria a homogeneidade de um corte de renda igual para todos os indivíduos: notoriamente uma simples diferença geográfica pode alterar o nível de pobreza para um mesmo corte de renda. 
+\chapter{Pobreza multidimensional}
+
+O pressuposto latente nas decisões judiciais para a concessão do BPC é que a renda \textit{per capita} do requerente ao BPC não é capaz de refletir perfeitamente sua pobreza, havendo casos em que, mesmo superado o limite de renda estipulado na lei, o magistrado entende que quando considerado outros fatores socioeconômicos esse indivíduo é tao pobre quanto o que se enquadraria naturalmente na regra de renda vigente. Esse entendimento do judiciário não é infundado: a literatura concebe basicamente duas grandes abordagens de pobreza -- as medidas monetárias e as não monetárias. 
+
+Apesar disso, o uso de pobreza monetária para aferir a pobreza têm representado a maior parte das análises atuais. Isso ocorre principalmente pela facilidade de operacionalização, de ordenação dos indivíduos e comparação internacional \cite{lopes2003indicador}. A hipótese das análises baseadas na insuficiência de renda para a análise de pobreza é que essa é capaz de refletir a miséria do indivíduo em todas as demais dimensões. Isso corre por tratar-se por hipótese que o indivíduo supri suas necessidades básicas recorrendo ao mercado \cite{rocha2003pobreza}. Decorre imediatamente dessa suposição, que existem mercados acessíveis em que esse indivíduo possa recorrer afim de "comprar" o seu bem estar. No entanto, esse tipo de definição apresenta alguns problemas: primeiro pode haver uma subestimação da pobreza em lugares onde o há restrição de acesso ao mercado. Segundo, podem estar sendo superestimadas as pobreza rurais, uma vez que pode haver menor dependência monetária no campo do que nas cidades \cite{lopes2003indicador}.
+
+A despeito do maior uso do critério monetário, a pobreza não é um conceito rígido e único: há o reconhecimento amplamente difundido na literatura de que a pobreza é um fenômeno que abarca diversas dimensões \cite{barros2006pobreza}. Dentro da literatura especializada, a pobreza está fortemente ligada à ideia de privação das necessidades básicas \cite{rocha2003pobreza, medeiros2012medidas}. O dissenso aparece quanto à definição do que seriam necessidades básicas, qual o peso que se deve dar a elas e qual o nível adequado de acesso a essas por parte do indivíduo (uma definição de uma linha de pobreza) \cite{rocha2003pobreza, barros2006pobreza, kageyama2006pobreza, soares2009metodologias}. Para \citeonline{soares2009metodologias}, a limitação mais grave é referente a construção de uma linha de corte, dada a limitação matemática de determinar apenas uma linha que dite que uma família é pobre e ao mesmo tempo seja a linha de pobreza para o local onde essa família está, usando um índice de média ponderada para os componentes. Para o caso da ponderação dos indicadores e da sua seleção, parece haver um consenso de que esses devem refletir as preferências sociais. No entanto, \citeonline{soares2009metodologias} não identifica nenhum estudo que tenha usado a estratégia de consulta social para isso. Além da dificuldade pratica de se fazer uma consulta social para isso, é plausível supor que essas preferências são mutáveis, o que seria dispendioso ter que trazer sempre novas atualizações dessas preferências.
+
+Um dos mais importantes trabalhos teóricos na área é de \cite{sen1983poor}. O trabalho constituiu a abordagem das capacidades. Para Sen, a pobreza vai além da insuficiência de renda. A capacidade da pessoa é definida como a liberdade substantiva do indivíduo escolher arranjos de vida. Quando privado em algumas das suas capacidades, há então a perda de liberdade. Assim, para Sen, dois indivíduos que passam fome, um por escolha e outro por privação, não são igualmente pobres. Essa abordagem relativiza a pobreza do indivíduo de acordo com a possibilidade de exercer suas liberdades. As liberdades para Sen, dependem -- além da disposição de recursos monetário -- das disposições de serviços e de direitos civis. Ou seja, embora possa haver altas rendas pessoais ou da sociedade como um todo, se houver restrições de acesso à serviços ou aos direitos civis, esse indivíduo ou sociedade pode ser considerado pobre tanto quanto outros com níveis de renda menor. 
+
+Apesar da antiga discussão, em termos práticos, a construção de indicadores multidimensionais de pobreza tornou-se mais relevante a partir da criação dos
+Índices de Pobreza Humana (IPH-1 e IPH-2) pelo Programa das Nações Unidas para
+o Desenvolvimento (Pnud), ver em \cite{pnud1990}. O IPH-1 visa medir as privações de três componentes para os países em desenvolvimento, sendo: longevidade de vida, educação e nível de vida digna. A escolha das variáveis para representar cada uma dos três componentes seguiu a disponibilidade de dados. O IPH-2 mede a pobreza humana para países selecionados da Organização para a Cooperação e Desenvolvimento Econômico (OCDE) e apresenta os mesmos componentes, com a adição de exclusão social. Segundo \citeonline{barros2006pobreza}, esses indicadores apresentam algumas limitações. Primeiro os pesos e os indicadores não seguiram a melhor estratégia que é selecionar os que melhores representam as preferências sociais. A segunda limitação é a forma de agregação dos índices, que têm como representação básica a unidade geográfica. Desse modo, o cálculo para unidades familiares não é possível. 
+
+Para o Brasil, \citeonline{barros2006pobreza} propoem o índice de pobreza familiar. O trabalho tem como base o IPH, mas busca resolver o problema da agregação ao nível familiar. O trabalho no entanto não resolve o problema da definição de pesos e indicadores, usando o que comumente é usado nos trabalhos empíricos desse tipo: pesos simétricos e indicadores construídos de acordo com as informações disponíveis na base de dados usada.
+  
+
+
+
 
 
 
@@ -870,10 +873,7 @@ O objetivo desse trabalho foi verificar se a pobreza entre os elegíveis ao BPC 
 
 Os resultados demostram que a pobreza medida pelo índice multidimensional dos dois grupos analisados não são diferentes. Além do mais, em algumas dimensões da pobreza, o estrato de renda superior a 1/4 está em pior situação do que o grupo naturalmente eleito no BPC. Se forem consideradas apenas o grau de miserabilidade, o resultados corroboram o entendimento do Supremo Tribunal Federal de que talvez os indivíduos com renda entre 1/4 e 1/2 devam ser incluídos no programa por entenderem que a pobreza entre eles não é tão diferente, mesmo com o dobro de renda por membro familiar. Outro ponto a ser destacado nos resultados é a também similaridade de pobreza entre grupos familiares de idosos e pessoas com deficiência. Atualmente, as regras do BPC tratam o cálculo da renda \textit{per capita} dos dois grupos de forma desigual, beneficiando os idosos ao nao inserir no calculo da renda familiar o rendimento de outro beneficiário idoso no mesmo domicílio. 
 
-
-% ---
-
-
+Como visto, a definição das variáveis e os pesos usados para compor um índice multidimensional de pobreza são basicamente empirismo advindo da disponibilidade da base de dados, sendo não trivial estimar o que as preferências sociais para definir as dimensões e seus pesos. Outro problema que se pode ter é que uma família pode ser pobre do ponto de vista de uma dimensão e não ser de outro. Embora tenha-se ciência de que a renda não é um perfeito indicador de pobreza, a operacionalização do programa a partir de corte de renda é mais facil. Dada a aferição da similaridade de pobreza nas diversas dimensões entre os dois cortes de renda, e a prática no judiciário de se considerar o corte de renda como de fato 1/2 do salário mínimo, a modificação da regra para esse mais alto limite traria maior previsibilidade ao programa sem reduzir a focalização na população mais pobre. 
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
